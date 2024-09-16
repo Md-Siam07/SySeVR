@@ -1,0 +1,78 @@
+#Clear and setup data
+rm -r data/*
+cp /home/SySeVR/Implementation/data_preprocess/data_source/hash_slices/* /home/SySeVR/Implementation/data_preprocess/data/hash_slices/SARD/
+cp -r /home/sysevr/NVD/NVD/* /home/SySeVR/data/
+
+
+#Create .joernIndex and adjust location
+java -jar joern.jar /home/SySeVR/data/NVD/
+cp -r /home/SySeVR/joern-0.3.1/bin/.joernIndex /home/SySeVR/joern-0.3.1
+rm -r .joernIndex/
+
+#Start neo4j server
+neo4j/bin/neo4j console
+
+
+
+#Delete Processing files
+
+#source2slice
+rm -r C/test_data/4/*
+rm -r C/label_source/linux_kernel/*
+rm -r C/test_data/4/*
+rm -r cfg_db/*
+rm -r dict_call2cfgNodeID_funcID/*
+rm -r pdg_db/*
+rm -r arrayuse_slice_points.pkl
+rm -r integeroverflow_slice_points_new.pkl
+rm -r pointuse_slice_points.pkl
+rm -r sensifunc_slice_points.pkl
+
+#data_preprocess
+rm -r data_source/corpus/*
+rm -r data_source/delete_list/*
+rm -r data_source/hash_slices/*
+rm -r data_source/label_source/*
+rm -r data_source/slice/*
+rm -r data_source/vector/*
+rm -r dl_input/test/*
+rm -r dl_input/train/*
+rm -r dl_input_shuffle/train/*
+rm -r dl_input_shuffle/test/*
+rm -r w2v_model/*
+
+#model 
+rm -r dl_input_shuffle/train/*
+rm -r dl_input_shuffle/test/*
+
+
+#run source2slice
+python2 get_cfg_relation.py
+python2 complete_PDG.py
+python2 access_db_operate.py
+python2 points_get.py
+python2 extract_df.py
+python2 make_label_nvd.py
+
+#copy files source2slice --> data_preprocess
+cp -r /home/SySeVR/Implementation/source2slice/C/test_data/4/* /home/SySeVR/Implementation/data_preprocess/data_source/slice/
+cp -r /home/SySeVR/Implementation/source2slice/C/label_source/linux_kernel/* /home/SySeVR/Implementation/data_preprocess/data_source/label_source/
+
+
+#run data_preprocess
+python2 create_hash.py
+python2 delete_list.py
+python2 process_dataflow_func.py
+python2 create_w2vmodel.py
+python2 get_dl_input.py
+python2 dealrawdata.py
+
+#Copy files data_preprocess --> model
+cp -r /home/SySeVR/Implementation/data_preprocess/dl_input_shuffle/test/* /home/SySeVR/Implementation/model/dl_input_shuffle/test/
+cp -r /home/SySeVR/Implementation/data_preprocess/dl_input_shuffle/train/* /home/SySeVR/Implementation/model/dl_input_shuffle/train/
+
+#run model
+python2 bgru.py
+
+#clear results
+

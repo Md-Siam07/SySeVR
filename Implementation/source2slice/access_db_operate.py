@@ -691,6 +691,7 @@ if __name__ == '__main__':
     list_testID = os.listdir(pdg_db_path)
     print list_testID
     for testID in list_testID:
+        print testID
         #if testID != '69055':
         #    continue
 

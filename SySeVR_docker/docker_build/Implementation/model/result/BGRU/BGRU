@@ -1,0 +1,10 @@
+cdg_ddg:  821
+TP:0.0 FP:821.0 FN:0.0 TN:0.0
+FPR: 1.0
+FNR: 1
+Accuracy: 0.0
+precision: 0.0
+recall: 1
+fbeta_score: 0.0
+train_time:1.50678992271  test_time:45.0023901463
+--------------------
