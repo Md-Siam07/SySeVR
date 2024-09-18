@@ -476,10 +476,10 @@ aS'variable_4'
 p170
 ag16
 aaa(lp171
-I0
-aI0
-aI0
-aI0
+I1
+aI1
+aI1
+aI1
 aa(lp172
 I91
 aI91

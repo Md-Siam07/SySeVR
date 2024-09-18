@@ -44,6 +44,7 @@ rm -r w2v_model/*
 #model 
 rm -r dl_input_shuffle/train/*
 rm -r dl_input_shuffle/test/*
+rm -r result/BGRU/*
 
 
 #run source2slice

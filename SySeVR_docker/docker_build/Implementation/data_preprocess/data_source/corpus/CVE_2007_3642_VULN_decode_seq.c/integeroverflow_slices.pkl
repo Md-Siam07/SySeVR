@@ -1562,9 +1562,9 @@ aS'variable_10'
 p529
 ag19
 aaa(lp530
-I0
-aI0
-aI0
+I1
+aI1
+aI1
 aa(lp531
 I429
 aI195

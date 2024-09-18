@@ -2192,8 +2192,6 @@ class Model(Container):
                     if callback_model.stop_training:
                         break
 
-                epoch_logs = {}
-
                 callbacks.on_epoch_end(epoch, epoch_logs)
                 epoch += 1
                 if callback_model.stop_training:

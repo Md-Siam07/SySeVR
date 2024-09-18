@@ -1,10 +1,20 @@
-cdg_ddg:  821
-TP:0.0 FP:821.0 FN:0.0 TN:0.0
-FPR: 1.0
-FNR: 1
-Accuracy: 0.0
-precision: 0.0
-recall: 1
-fbeta_score: 0.0
-train_time:1.50678992271  test_time:45.0023901463
+cdg_ddg:  111
+TP:0.0 FP:0.0 FN:41.0 TN:70.0
+FPR: 0.0
+FNR: 1.0
+Accuracy: 0.630630630631
+precision: nan
+recall: 0.0
+fbeta_score: nan
+train_time:85.3991429806  test_time:6.45302891731
+--------------------
+cdg_ddg:  111
+TP:8.0 FP:16.0 FN:33.0 TN:54.0
+FPR: 0.22857142857142856
+FNR: 0.8048780487804879
+Accuracy: 0.558558558559
+precision: 0.3333333333333333
+recall: 0.1951219512195122
+fbeta_score: 0.24615384615384614
+train_time:439.52667284  test_time:6.80688405037
 --------------------

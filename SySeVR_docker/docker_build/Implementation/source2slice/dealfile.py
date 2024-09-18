@@ -78,6 +78,10 @@ def dealfunc_nvd(folder_path,diff_path):
                     vulline_dict[filepath] = [linenum]
                 else:
                     vulline_dict[filepath].append(linenum)
+        
+    
+    print vulline_dict
+
     with open('./vul_context_func.pkl','wb') as f:
         pickle.dump(vulline_dict,f)
     f.close()
@@ -133,9 +137,9 @@ def dealfile_nvd(folder_path,diff_path):
                 sentences = f.read().split('\n')
             f.close()
             if filepath in _dict_vul_code.keys():
-                print(filepath)
+                #print(filepath)
                 for line in _dict_vul_code[filepath].keys():
-                    print(line)
+                    #print(line)
                     if line > len(sentences):
                         continue
                     vul_sen = sentences[line-1].strip()
@@ -157,9 +161,9 @@ if __name__ == "__main__":
     data_path = './SARD/SARD/'
     #dealfile_sard(data_path)
     
-    data_source1 = './NVD/func_code/'
-    diff_path = './NVD/diff/'
-    #dealfunc_nvd(data_source1,diff_path)
+    data_source1 = '/home/SySeVR/data/'
+    diff_path = '/home/sysevr/NVD/NVD_diff/'
+    dealfunc_nvd(data_source1,diff_path)
     
-    data_source2 = './NVD/source_code/'
-    dealfile_nvd(data_source2,diff_path)
+    data_source2 = '/home/SySeVR/data/'
+    #dealfile_nvd(data_source2,diff_path)

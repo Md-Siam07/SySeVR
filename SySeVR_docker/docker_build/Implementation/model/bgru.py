@@ -60,8 +60,8 @@ def main(traindataSet_path, testdataSet_path, realtestpath, weightpath, resultpa
     labels = []
     testcases = []
     for filename in os.listdir(traindataSet_path):
-        if(filename.endswith(".pkl") is True):
-            continue
+        ##if(filename.endswith(".pkl") is True):
+        ##    continue
         print(filename)
         f = open(os.path.join(traindataSet_path, filename),"rb")
         dataset_file,labels_file,funcs_file,filenames_file,testcases_file = pickle.load(f)
@@ -98,11 +98,11 @@ def main(traindataSet_path, testdataSet_path, realtestpath, weightpath, resultpa
     testcases = []
     filenames = []
     funcs = []
-    for filename in os.listdir(traindataSet_path):
+    for filename in os.listdir(testdataSet_path):
         if(filename.endswith(".pkl") is False):
            continue
         print(filename)
-        f = open(os.path.join(traindataSet_path, filename),"rb")
+        f = open(os.path.join(testdataSet_path, filename),"rb")
         datasetfile,labelsfile,funcsfiles,filenamesfile,testcasesfile = pickle.load(f)
         f.close()
         dataset += datasetfile
@@ -159,15 +159,15 @@ def main(traindataSet_path, testdataSet_path, realtestpath, weightpath, resultpa
     print TP
     print TN
     print FP
-    #FNR = float(FN) / (TP + FN)
-    FNR = 1
+    FNR = float(FN) / (TP + FN)
+    #FNR = 1
     fwrite.write('FNR: ' + str(FNR) + '\n')
     Accuracy = float(TP + TN) / (all_test_samples)
     fwrite.write('Accuracy: ' + str(Accuracy) + '\n')
     precision = float(TP) / (TP + FP)
     fwrite.write('precision: ' + str(precision) + '\n')
-    #recall = float(TP) / (TP + FN)
-    recall = 1
+    recall = float(TP) / (TP + FN)
+    #recall = 1
     fwrite.write('recall: ' + str(recall) + '\n')
     f_score = (2 * precision * recall) / (precision + recall)
     fwrite.write('fbeta_score: ' + str(f_score) + '\n')

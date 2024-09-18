@@ -13,31 +13,31 @@ p4
 I0
 sS'229 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c pc = pc + GET_OFFSET ( pc ) 282'
 p5
-I0
+I1
 sS'520 /home/SySeVR/data/CVE_2013_4470_PATCHED_ip6_ufo_append_data.c skb = sock_alloc_send_skb ( sk , hh_len + fragheaderlen + transhdrlen + 20 , ( flags & MSG_DONTWAIT ) , & err ) 18'
 p6
 I0
 sS'574 /home/SySeVR/data/CVE_2013_7017_VULN_ff_jpeg2000_init_component.c Cy0 = Cy0 + ( ( cblkno / prec -> nb_codeblocks_width ) << band -> log2_cblk_height ) 252'
 p7
-I0
+I1
 sS'127 /home/SySeVR/data/CVE_2010_2805_PATCHED_FT_Stream_EnterFrame.c stream -> limit = stream -> cursor + count 69'
 p8
 I0
 sS'834 /home/SySeVR/data/CVE_2013_1693_VULN_nsSVGFEMorphologyElement__Filter.c PRUint32 startY = NS_MAX ( 0 , y - ry ) ; 33'
 p9
-I0
+I1
 sS'106 /home/SySeVR/data/CVE_2009_4138_VULN_ohci_queue_iso_receive_packet_per_buffer.c payload_per_buffer = p -> payload_length / packet_count 25'
 p10
-I0
+I1
 sS'251 /home/SySeVR/data/CVE_2011_3363_VULN_cifs_mount.c cifs_sb -> rsize = min ( cifs_sb -> rsize , ( tcon -> ses -> server -> maxBuf - MAX_CIFS_HDR_SIZE ) ) 127'
 p11
-I0
+I1
 sS'536 /home/SySeVR/data/CVE_2013_5642_VULN_process_sdp.c codecs = m + len 242'
 p12
 I0
 sS'863 /home/SySeVR/data/CVE_2013_7017_VULN_ff_jpeg2000_cleanup.c Jpeg2000Prec * prec = band -> prec + precno ; 12'
 p13
-I0
+I1
 sS'824 /home/SySeVR/data/CVE_2013_1678_VULN__cairo_xlib_surface_add_glyph.c int c = glyph_surface -> stride * glyph_surface -> height ; 123'
 p14
 I0
@@ -46,13 +46,13 @@ p15
 I0
 sS'233 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c x -> cp = gData -> cpbegin + curState -> index 238'
 p16
-I0
+I1
 sS'134 /home/SySeVR/data/CVE_2010_3015_PATCHED_ext4_ext_get_blocks.c allocated = ee_len - ( iblock - ee_block ) 84'
 p17
 I0
 sS'849 /home/SySeVR/data/CVE_2013_7010_VULN_add_bytes_c.c long a = * ( long * ) ( src + i ) ; 4'
 p18
-I0
+I1
 sS'561 /home/SySeVR/data/CVE_2013_7013_PATCHED_g2m_init_buffers.c c -> synth_tile = av_mallocz ( c -> tile_stride * aligned_height ) 22'
 p19
 I0
@@ -73,7 +73,7 @@ p24
 I0
 sS'304 /home/SySeVR/data/CVE_2012_2390_VULN_hugetlb_reserve_pages.c chg = to - from 31'
 p25
-I0
+I1
 sS'61 /home/SySeVR/data/CVE_2009_0946_PATCHED_tt_cmap8_validate.c count = ( FT_UInt32 ) ( end - start + 1 ) 49'
 p26
 I0
@@ -97,13 +97,13 @@ p32
 I0
 sS'232 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c gData -> backTrackSP = ( REBackTrackData * ) ( ( char * ) gData -> backTrackStack + curState -> u . assertion . top ) 239'
 p33
-I0
+I1
 sS'261 /home/SySeVR/data/CVE_2011_3945_PATCHED_decode_frame.c start = ( outcnt + offsets [ oidx ] ) % maxcnt 63'
 p34
 I0
 sS'206 /home/SySeVR/data/CVE_2011_2588_VULN_AVI_ChunkRead_strf.c p_chk -> strf . auds . p_wf -> cbSize = p_chk -> common . i_chunk_size - sizeof ( WAVEFORMATEX ) 36'
 p35
-I0
+I1
 sS'381 /home/SySeVR/data/CVE_2013_0772_PATCHED_nsGIFDecoder2__DoLzw.c rowend = rowp + mGIFStruct . width 36'
 p36
 I0
@@ -118,7 +118,7 @@ p39
 I0
 sS'253 /home/SySeVR/data/CVE_2011_3648_VULN_nsShiftJISToUnicode__Convert.c * aDestLen = dest - aDest 156'
 p40
-I0
+I1
 sS'84 /home/SySeVR/data/CVE_2009_3888_PATCHED_do_mmap_pgoff.c vma -> vm_end = region -> vm_end = addr + len 159'
 p41
 I0
@@ -127,7 +127,7 @@ p42
 I0
 sS'445 /home/SySeVR/data/CVE_2013_1576_VULN_dissect_sdp_media_attribute.c tokenlen = next_offset - offset 417'
 p43
-I0
+I1
 sS'477 /home/SySeVR/data/CVE_2013_1707_VULN_NS_main.c NS_tsnprintf ( elevatedLockFilePath , sizeof ( elevatedLockFilePath ) / sizeof ( elevatedLockFilePath [ 0 ] ) , NS_T ( "%s/update_elevated.lock" ) , gSourcePath ) 243'
 p44
 I0
@@ -139,19 +139,19 @@ p46
 I0
 sS'399 /home/SySeVR/data/CVE_2013_0844_VULN_adpcm_decode_frame.c * samples ++ = c -> status [ 0 ] . predictor - c -> status [ 1 ] . predictor 254'
 p47
-I0
+I1
 sS'799 /home/SySeVR/data/CVE_2013_0772_VULN_nsGIFDecoder2__OutputRow.c uint8_t * from = rowp + mGIFStruct . width ; 43'
 p48
-I0
+I1
 sS'737 /home/SySeVR/data/CVE-2016-2522_VULN_dissect_ber_constrained_bitstring.c guint8 bits_in_pad = tvb_get_guint8 ( tvb , offset + len - 1 ) & ( 0xFF >> ( 8 - pad ) ) ; 139'
 p49
 I0
 sS'13 /home/SySeVR/data/CVE-2016-2327_VULN_apng_encode_frame.c bytestream_size = s -> bytestream - bytestream_start 86'
 p50
-I0
+I1
 sS'627 /home/SySeVR/data/CVE_2014_4655_VULN_snd_ctl_elem_add.c ue -> elem_data = ( char * ) ue + sizeof ( * ue ) 87'
 p51
-I0
+I1
 sS'944 /home/SySeVR/data/CVE_2015_3813_VULN_fragment_add_work.c guint32 cmp_len = MIN ( fd_i -> len , ( dfpos - fd_i -> offset ) ) ; 286'
 p52
 I0
@@ -160,7 +160,7 @@ p53
 I0
 sS'541 /home/SySeVR/data/CVE_2013_6380_VULN_aac_send_raw_srb.c usg = kmalloc ( actual_fibsize - sizeof ( struct aac_srb ) + sizeof ( struct sgmap ) , GFP_KERNEL ) 172'
 p54
-I0
+I1
 sS'790 /home/SySeVR/data/CVE_2012_4190_VULN_ft_module_get_service.c FT_Module * limit = cur + library -> num_modules ; 21'
 p55
 I0
@@ -169,7 +169,7 @@ p56
 I0
 sS'221 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c pc = pc + GET_OFFSET ( pc ) 462'
 p57
-I0
+I1
 sS'408 /home/SySeVR/data/CVE_2013_0850_PATCHED_decode_slice_header.c unwrap_prev_frame_num = ( h -> frame_num - h -> sps . ref_frame_count ) - 1 356'
 p58
 I0
@@ -181,7 +181,7 @@ p60
 I0
 sS'398 /home/SySeVR/data/CVE_2013_0844_VULN_adpcm_decode_frame.c next_left_sample = ( next_left_sample + ( current_left_sample * coeff1l ) + ( previous_left_sample * coeff2l ) + 0x80 ) >> 8 386'
 p61
-I0
+I1
 sS'424 /home/SySeVR/data/CVE_2013_0867_PATCHED_decode_slice_header.c tmp = h -> pps . init_qp + get_se_golomb ( & s -> gb ) 547'
 p62
 I0
@@ -193,7 +193,7 @@ p64
 I0
 sS'176 /home/SySeVR/data/CVE_2010_4649_VULN_ib_uverbs_poll_cq.c wc = kmalloc ( cmd . ne * sizeof * wc , GFP_KERNEL ) 16'
 p65
-I0
+I1
 sS'257 /home/SySeVR/data/CVE_2011_3936_PATCHED_dv_extract_audio.c of = sys -> audio_shuffle [ i % half_ch + half_ch ] [ j ] + ( d - 8 ) / 3 * sys -> audio_stride 70'
 p66
 I0
@@ -205,43 +205,43 @@ p68
 I0
 sS'40 /home/SySeVR/data/CVE_2007_3642_VULN_decode_seq.c bs -> cur = beg + len 110'
 p69
-I0
+I1
 sS'393 /home/SySeVR/data/CVE_2013_0844_VULN_adpcm_decode_frame.c s2 [ 0 ] = av_clip_int16 ( ( level + pred + 0x80 ) >> 8 ) 543'
 p70
-I0
+I1
 sS'845 /home/SySeVR/data/CVE_2013_7010_PATCHED_add_bytes_c.c long a = * ( long * ) ( src + i ) ; 4'
 p71
 I0
 sS'311 /home/SySeVR/data/CVE_2012_2790_VULN_read_var_block_data.c current_res = bd -> raw_samples + start 175'
 p72
-I0
+I1
 sS'467 /home/SySeVR/data/CVE_2013_1588_VULN_dissect_pft_fec_detailed.c rx_min = c_max * rsk / plen 27'
 p73
 I0
 sS'327 /home/SySeVR/data/CVE_2012_4287_VULN_dissect_bson_document.c final_offset = offset + document_length 22'
 p74
-I0
+I1
 sS'256 /home/SySeVR/data/CVE_2011_3648_VULN_nsShiftJISToUnicode__Convert.c * dest ++ = mData + off 138'
 p75
-I0
+I1
 sS'484 /home/SySeVR/data/CVE_2013_1732_VULN_nsBlockFrame__Reflow.c delta = end - start 320'
 p76
 I0
 sS'623 /home/SySeVR/data/CVE_2014_4608_VULN_lzo1x_decompress_safe.c * out_len = op - out 193'
 p77
-I0
+I1
 sS'763 /home/SySeVR/data/CVE_2011_1746_PATCHED_agp_create_user_memory.c unsigned long alloc_size = num_agp_pages * sizeof ( struct page * ) ; 4'
 p78
 I0
 sS'639 /home/SySeVR/data/CVE_2014_8546_VULN_cinepak_decode_vectors.c ip3 = ip2 + s -> frame -> linesize [ 0 ] 23'
 p79
-I0
+I1
 sS'238 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c curState -> index = x -> cp - gData -> cpbegin 190'
 p80
-I0
+I1
 sS'19 /home/SySeVR/data/CVE-2016-5829_VULN_hiddev_ioctl_usage.c uref_multi -> values [ i ] = field -> value [ uref -> usage_index + i ] 95'
 p81
-I0
+I1
 sS'481 /home/SySeVR/data/CVE_2013_1708_VULN_WaveReader__LoadListChunk.c PR_STATIC_ASSERT ( MAX_CHUNK_SIZE < UINT_MAX / sizeof ( char ) ) 10'
 p82
 I0
@@ -253,37 +253,37 @@ p84
 I0
 sS'717 /home/SySeVR/data/CVE_2015_4652_VULN_de_bcd_num.c num_string_len = len - ( curr_offset - offset ) 30'
 p85
-I0
+I1
 sS'163 /home/SySeVR/data/CVE_2010_3904_VULN_rds_page_copy_user.c ret = copy_to_user ( ptr , addr + offset , bytes ) 23'
 p86
-I0
+I1
 sS'101 /home/SySeVR/data/CVE_2009_4138_VULN_ohci_queue_iso_receive_packet_per_buffer.c length = PAGE_SIZE - offset 53'
 p87
-I0
+I1
 sS'255 /home/SySeVR/data/CVE_2011_3648_VULN_nsShiftJISToUnicode__Convert.c * aDestLen = dest - aDest 149'
 p88
-I0
+I1
 sS'819 /home/SySeVR/data/CVE_2013_1676_VULN_nsBidiPresUtils__ResolveParagraph.c int32_t runEnd = contentOffset + runLength ; 134'
 p89
 I0
 sS'147 /home/SySeVR/data/CVE_2010_3429_VULN_flic_decode_frame_15_16BPP.c stream_ptr = stream_ptr + chunk_size - 6 63'
 p90
-I0
+I1
 sS'870 /home/SySeVR/data/CVE_2013_7017_VULN_ff_jpeg2000_init_component.c int declvl = codsty -> nreslevels - reslevelno ; 40'
 p91
-I0
+I1
 sS'744 /home/SySeVR/data/CVE_2008_0420_PATCHED_nsBMPDecoder__ProcessData.c PRUint32 toCopy = BFH_LENGTH - mPos ; 9'
 p92
 I0
 sS'852 /home/SySeVR/data/CVE_2013_7011_VULN_read_header.c int size = AV_RB24 ( p - trailer ) ; 129'
 p93
-I0
+I1
 sS'773 /home/SySeVR/data/CVE_2012_1097_PATCHED_fill_thread_core_info.c size_t size = regset -> n * regset -> size ; 35'
 p94
 I0
 sS'240 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c delta = x -> cp - ( gData -> cpbegin + cap -> index ) 169'
 p95
-I0
+I1
 sS'742 /home/SySeVR/data/CVE_2008_0420_PATCHED_nsBMPDecoder__ProcessData.c PRUint32 colorBytes = mPos - mLOH ; 99'
 p96
 I0
@@ -295,13 +295,13 @@ p98
 I0
 sS'829 /home/SySeVR/data/CVE_2013_1693_VULN_nsSVGFEMorphologyElement__Filter.c PRUint8 pixel = sourceData [ y1 * stride + 4 * x1 + i ] ; 53'
 p99
-I0
+I1
 sS'839 /home/SySeVR/data/CVE_2013_3670_VULN_rle_unpack.c unsigned char * dest_end = dest + dest_len ; 8'
 p100
-I0
+I1
 sS'891 /home/SySeVR/data/CVE_2014_1522_VULN_ComputeCustom.c float lower = sampleInterpolationFactor * lowerWaveData [ j1 ] + ( 1 - sampleInterpolationFactor ) * lowerWaveData [ j2 ] ; 32'
 p101
-I0
+I1
 sS'516 /home/SySeVR/data/CVE_2013_4247_PATCHED_build_unc_path_to_root.c pos = full_path + unc_len 14'
 p102
 I0
@@ -310,22 +310,22 @@ p103
 I0
 sS'454 /home/SySeVR/data/CVE_2013_1576_VULN_dissect_sdp_media_attribute.c tokenlen = next_offset - offset 160'
 p104
-I0
+I1
 sS'219 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c parenSoFar = backTrackData -> parenIndex + backTrackData -> parenCount 515'
 p105
-I0
+I1
 sS'894 /home/SySeVR/data/CVE_2014_4608_VULN_lzo1x_decompress_safe.c unsigned char * oe = op + t ; 156'
 p106
-I0
+I1
 sS'825 /home/SySeVR/data/CVE_2013_1678_VULN__cairo_xlib_surface_add_glyph.c int max_request_size = ( XExtendedMaxRequestSize ( display -> display ) ? XExtendedMaxRequestSize ( display -> display ) : XMaxRequestSize ( display -> display ) ) * 4 - sz_xRenderAddGlyphsReq - sz_xGlyphInfo - 8 ; 52'
 p107
 I0
 sS'250 /home/SySeVR/data/CVE_2011_3363_VULN_cifs_mount.c tlink = kzalloc ( sizeof * tlink , GFP_KERNEL ) 213'
 p108
-I0
+I1
 sS'442 /home/SySeVR/data/CVE_2013_0874_VULN_doubles2str.c ap = av_malloc ( component_len * count ) 8'
 p109
-I0
+I1
 sS'170 /home/SySeVR/data/CVE_2010_4165_VULN_do_tcp_setsockopt.c tp -> keepalive_time = val * HZ 193'
 p110
 I0
@@ -340,43 +340,43 @@ p113
 I0
 sS'724 /home/SySeVR/data/CVE-2015-1872_VULN_ff_mjpeg_decode_sof.c int bh = ( height + s -> v_max * 8 - 1 ) / ( s -> v_max * 8 ) ; 362'
 p114
-I0
+I1
 sS'326 /home/SySeVR/data/CVE_2012_4287_VULN_dissect_bson_document.c final_offset = offset + document_length 22'
 p115
-I0
+I1
 sS'788 /home/SySeVR/data/CVE_2012_3969_VULN_nsSVGFEMorphologyElement__Filter.c PRUint32 endY = NS_MIN ( y + ry , instance -> GetSurfaceHeight ( ) - 1 ) ; 30'
 p116
-I0
+I1
 sS'372 /home/SySeVR/data/CVE_2013_0311_VULN_translate_desc.c size = reg -> memory_size - addr + reg -> guest_phys_addr 25'
 p117
-I0
+I1
 sS'364 /home/SySeVR/data/CVE_2012_6053_VULN_dissect_usb_interface_descriptor.c offset = old_offset + len 75'
 p118
-I0
+I1
 sS'649 /home/SySeVR/data/CVE_2014_8547_VULN_gif_read_image.c height = s -> screen_height - top 73'
 p119
-I0
+I1
 sS'267 /home/SySeVR/data/CVE_2011_3945_VULN_decode_frame.c start = ( outcnt + offsets [ oidx ] ) % maxcnt 63'
 p120
-I0
+I1
 sS'295 /home/SySeVR/data/CVE_2012_1960_VULN_compute_curve_gamma_table_type_parametric.c gamma_table [ X ] = c * X / 255. + f 58'
 p121
-I0
+I1
 sS'896 /home/SySeVR/data/CVE_2014_4608_VULN_lzo1x_decompress_safe.c unsigned char * oe = op + t ; 43'
 p122
-I0
+I1
 sS'429 /home/SySeVR/data/CVE_2013_0867_VULN_decode_slice_header.c tmp = h -> pps . init_qp + get_se_golomb ( & s -> gb ) 546'
 p123
 I0
 sS'784 /home/SySeVR/data/CVE_2012_3969_VULN_nsSVGFEMorphologyElement__Filter.c PRUint8 pixel = sourceData [ y1 * stride + 4 * x1 + i ] ; 42'
 p124
-I0
+I1
 sS'873 /home/SySeVR/data/CVE_2013_7024_PATCHED_jpeg2000_decode_tile.c Jpeg2000CodingStyle * codsty = tile -> codsty + compno ; 120'
 p125
 I0
 sS'353 /home/SySeVR/data/CVE_2012_4530_VULN_load_script.c cp = bprm -> buf + BINPRM_BUF_SIZE - 1 23'
 p126
-I0
+I1
 sS'707 /home/SySeVR/data/CVE_2015_3813_PATCHED_fragment_add_work.c fd_head -> error = "dfpos - offset > len" 263'
 p127
 I0
@@ -385,7 +385,7 @@ p128
 I0
 sS'526 /home/SySeVR/data/CVE_2013_4470_VULN_ip6_ufo_append_data.c skb = sock_alloc_send_skb ( sk , hh_len + fragheaderlen + transhdrlen + 20 , ( flags & MSG_DONTWAIT ) , & err ) 19'
 p129
-I0
+I1
 sS'210 /home/SySeVR/data/CVE_2011_2689_PATCHED_gfs2_fallocate.c al -> al_requested = data_blocks + ind_blocks 53'
 p130
 I0
@@ -394,13 +394,13 @@ p131
 I0
 sS'489 /home/SySeVR/data/CVE_2013_1767_VULN_shmem_remount_fs.c sbinfo -> free_inodes = config . max_inodes - inodes 30'
 p132
-I0
+I1
 sS'197 /home/SySeVR/data/CVE_2011_1147_VULN_udptl_rx_packet.c limit = ( l + m ) & UDPTL_BUF_MASK 146'
 p133
-I0
+I1
 sS'411 /home/SySeVR/data/CVE_2013_0850_VULN_decode_slice_header.c tmp = h -> pps . init_qp + get_se_golomb ( & s -> gb ) 646'
 p134
-I0
+I1
 sS'310 /home/SySeVR/data/CVE_2012_2790_VULN_read_var_block_data.c current_res = bd -> raw_samples + start 192'
 p135
 I0
@@ -421,7 +421,7 @@ p140
 I0
 sS'321 /home/SySeVR/data/CVE_2012_4287_VULN_dissect_bson_document.c final_offset = offset + document_length 22'
 p141
-I0
+I1
 sS'583 /home/SySeVR/data/CVE_2013_7022_PATCHED_g2m_init_buffers.c c -> kempf_buf = av_mallocz ( ( c -> tile_width + 1 ) * aligned_height + FF_INPUT_BUFFER_PADDING_SIZE ) 24'
 p142
 I0
@@ -448,34 +448,34 @@ p149
 I0
 sS'74 /home/SySeVR/data/CVE_2009_1385_VULN_e1000_clean_rx_irq.c last_byte = * ( skb -> data + length - 1 ) 61'
 p150
-I0
+I1
 sS'641 /home/SySeVR/data/CVE_2014_8546_VULN_cinepak_decode_vectors.c ip1 = ip0 + s -> frame -> linesize [ 0 ] 19'
 p151
-I0
+I1
 sS'450 /home/SySeVR/data/CVE_2013_1576_VULN_dissect_sdp_media_attribute.c tokenlen = next_offset - offset 309'
 p152
-I0
+I1
 sS'204 /home/SySeVR/data/CVE_2011_2587_VULN_DemuxAudioSipr.c p_block = block_New ( p_demux , tk -> i_frame_size * tk -> i_subpacket_h ) 11'
 p153
-I0
+I1
 sS'684 /home/SySeVR/data/CVE_2015_3331_VULN___driver_rfc4106_decrypt.c assoc = ( src + req -> cryptlen + auth_tag_len ) 52'
 p154
-I0
+I1
 sS'797 /home/SySeVR/data/CVE_2013_0772_PATCHED_nsGIFDecoder2__DoLzw.c uint8_t * rowend = mImageData + ( bpr * mGIFStruct . irow ) + mGIFStruct . width ; 29'
 p155
 I0
 sS'895 /home/SySeVR/data/CVE_2014_4608_VULN_lzo1x_decompress_safe.c unsigned char * oe = op + t ; 129'
 p156
-I0
+I1
 sS'317 /home/SySeVR/data/CVE_2012_3969_PATCHED_nsSVGFEMorphologyElement__Filter.c extrema [ i ] = sourceData [ targIndex + i ] 37'
 p157
 I0
 sS'446 /home/SySeVR/data/CVE_2013_1576_VULN_dissect_sdp_media_attribute.c tokenlen = next_offset - offset 402'
 p158
-I0
+I1
 sS'222 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c curState -> index = x -> cp - gData -> cpbegin 452'
 p159
-I0
+I1
 sS'808 /home/SySeVR/data/CVE_2013_0851_PATCHED_decode_frame.c const uint8_t * buf_end = buf + buf_size ; 7'
 p160
 I0
@@ -499,7 +499,7 @@ p166
 I0
 sS'178 /home/SySeVR/data/CVE_2011_0021_VULN_DecodeScroll.c p_cdg -> screen [ dy * CDG_SCREEN_PITCH + dx ] = copy [ y * CDG_SCREEN_PITCH + x ] 65'
 p167
-I0
+I1
 sS'766 /home/SySeVR/data/CVE_2011_2174_PATCHED_tvb_uncompress.c guint bytes_pass = bufsiz - strm -> avail_out ; 68'
 p168
 I0
@@ -508,7 +508,7 @@ p169
 I0
 sS'587 /home/SySeVR/data/CVE_2013_7022_VULN_g2m_init_buffers.c c -> kempf_flags = av_mallocz ( c -> tile_width * aligned_height ) 26'
 p170
-I0
+I1
 sS'532 /home/SySeVR/data/CVE_2013_4932_PATCHED_elem_tv_short.c item = proto_tree_add_text ( tree , tvb , curr_offset , - 1 , "%s%s" , elem_name ? elem_name : "Unknown - aborting dissection" , ( name_add == NULL ) || ( name_add [ 0 ] == \'\\0\' ) ? "" : name_add ) 25'
 p171
 I0
@@ -517,7 +517,7 @@ p172
 I0
 sS'368 /home/SySeVR/data/CVE_2012_6618_VULN_av_probe_input_buffer.c buftmp = av_realloc ( buf , probe_size + AVPROBE_PADDING_SIZE ) 32'
 p173
-I0
+I1
 sS'461 /home/SySeVR/data/CVE_2013_1587_PATCHED_dissect_rohc_ir_packet.c offset = offset + val_len 65'
 p174
 I0
@@ -526,7 +526,7 @@ p175
 I0
 sS'755 /home/SySeVR/data/CVE_2010_2500_VULN_gray_render_span.c unsigned char * q = p + spans -> x ; 31'
 p176
-I0
+I1
 sS'793 /home/SySeVR/data/CVE_2013_0756_PATCHED_obj_toSource.c const jschar * end = vchars + vlength ; 122'
 p177
 I0
@@ -535,13 +535,13 @@ p178
 I0
 sS'258 /home/SySeVR/data/CVE_2011_3936_VULN_dv_extract_audio.c of = sys -> audio_shuffle [ i % half_ch + half_ch ] [ j ] + ( d - 8 ) / 3 * sys -> audio_stride 66'
 p179
-I0
+I1
 sS'786 /home/SySeVR/data/CVE_2012_3969_VULN_nsSVGFEMorphologyElement__Filter.c PRUint32 endX = NS_MIN ( x + rx , instance -> GetSurfaceWidth ( ) - 1 ) ; 33'
 p180
-I0
+I1
 sS'414 /home/SySeVR/data/CVE_2013_0850_VULN_decode_slice_header.c s -> picture_structure = PICT_TOP_FIELD + get_bits1 ( & s -> gb ) 327'
 p181
-I0
+I1
 sS'862 /home/SySeVR/data/CVE_2013_7017_PATCHED_ff_jpeg2000_init_component.c int declvl = codsty -> nreslevels - reslevelno ; 40'
 p182
 I0
@@ -553,7 +553,7 @@ p184
 I0
 sS'296 /home/SySeVR/data/CVE_2012_1960_VULN_compute_curve_gamma_table_type_parametric.c gamma_table [ X ] = pow ( a * X / 255. + b , y ) + c + e 56'
 p185
-I0
+I1
 sS'207 /home/SySeVR/data/CVE_2011_2689_PATCHED_gfs2_fallocate.c error = gfs2_trans_begin ( sdp , rblocks , PAGE_CACHE_SIZE / sdp -> sd_sb . sb_bsize ) 74'
 p186
 I0
@@ -565,7 +565,7 @@ p188
 I0
 sS'624 /home/SySeVR/data/CVE_2014_4608_VULN_lzo1x_decompress_safe.c * out_len = op - out 187'
 p189
-I0
+I1
 sS'752 /home/SySeVR/data/CVE_2009_4410_VULN_fuse_ioctl_copy_user.c char __user * uaddr = ii . iov -> iov_base + ii . iov_offset ; 20'
 p190
 I0
@@ -580,19 +580,19 @@ p193
 I0
 sS'218 /home/SySeVR/data/CVE_2011_2689_VULN_gfs2_fallocate.c len = next - offset 21'
 p194
-I0
+I1
 sS'301 /home/SySeVR/data/CVE_2012_2375_VULN___nfs4_get_acl_uncached.c npages = ( buflen + PAGE_SIZE - 1 ) >> PAGE_SHIFT 20'
 p195
 I0
 sS'505 /home/SySeVR/data/CVE_2013_3559_VULN_dissect_pft_fec_detailed.c decoded_size = fcount * plen 25'
 p196
-I0
+I1
 sS'198 /home/SySeVR/data/CVE_2011_1147_VULN_udptl_rx_packet.c s -> f [ ifp_no ] . seqno = seq_no - i 69'
 p197
-I0
+I1
 sS'325 /home/SySeVR/data/CVE_2012_4287_VULN_dissect_bson_document.c final_offset = offset + document_length 22'
 p198
-I0
+I1
 sS'286 /home/SySeVR/data/CVE_2012_0477_PATCHED_nsISO2022CNToUnicode__Convert.c aLen = destEnd - dest 122'
 p199
 I0
@@ -601,16 +601,16 @@ p200
 I0
 sS'868 /home/SySeVR/data/CVE_2013_7017_VULN_ff_jpeg2000_init_component.c Jpeg2000Band * band = reslevel -> band + bandno ; 88'
 p201
-I0
+I1
 sS'242 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c nextpc = pc + GET_OFFSET ( pc ) 100'
 p202
-I0
+I1
 sS'431 /home/SySeVR/data/CVE_2013_0867_VULN_decode_slice_header.c unwrap_prev_frame_num = ( h -> frame_num - h -> sps . ref_frame_count ) - 1 244'
 p203
 I0
 sS'380 /home/SySeVR/data/CVE_2013_0771_VULN_nsTextFrame__ReflowText.c forceBreakAfter = forceBreak == offset + length 236'
 p204
-I0
+I1
 sS'937 /home/SySeVR/data/CVE_2015_0833_PATCHED_NS_main.c size_t len = NS_tstrlen ( gInstallDirPath + commonPrefixLength ) ; 636'
 p205
 I0
@@ -628,10 +628,10 @@ p209
 I0
 sS'920 /home/SySeVR/data/CVE_2014_6431_VULN_SnifferDecompress.c unsigned char * pin_end = pin + inlen ; 7'
 p210
-I0
+I1
 sS'636 /home/SySeVR/data/CVE_2014_8541_VULN_ff_mjpeg_decode_sof.c s -> block_stride [ i ] = bw * s -> h_count [ i ] 344'
 p211
-I0
+I1
 sS'820 /home/SySeVR/data/CVE_2013_1678_PATCHED__cairo_xlib_surface_add_glyph.c unsigned int c = glyph_surface -> stride * glyph_surface -> height / 4 ; 148'
 p212
 I0
@@ -643,10 +643,10 @@ p214
 I0
 sS'927 /home/SySeVR/data/CVE_2014_8541_VULN_ff_mjpeg_decode_sof.c int size = bw * bh * s -> h_count [ i ] * s -> v_count [ i ] ; 337'
 p215
-I0
+I1
 sS'888 /home/SySeVR/data/CVE_2014_1508_VULN_nsDisplayNotation__Paint.c gfxFloat l = sqrt ( W * W + H * H ) ; 49'
 p216
-I0
+I1
 sS'131 /home/SySeVR/data/CVE_2010_2962_PATCHED_i915_gem_gtt_pwrite_fast.c offset = obj_priv -> gtt_offset + args -> offset 29'
 p217
 I0
@@ -655,13 +655,13 @@ p218
 I0
 sS'547 /home/SySeVR/data/CVE_2013_6381_VULN_qeth_snmp_command.c rc = qeth_send_ipa_snmp_cmd ( card , iob , QETH_SETADP_BASE_LEN + req_len , qeth_snmp_command_cb , ( void * ) & qinfo ) 39'
 p219
-I0
+I1
 sS'313 /home/SySeVR/data/CVE_2012_2797_PATCHED_decode_frame_mp3on4.c bp = out_samples + s -> coff [ fr ] 63'
 p220
 I0
 sS'645 /home/SySeVR/data/CVE_2014_8547_VULN_gif_read_image.c pr = ptr + pw 131'
 p221
-I0
+I1
 sS'49 /home/SySeVR/data/CVE_2008_3686_VULN_rt6_fill_node.c expires = rt -> rt6i_expires - jiffies 102'
 p222
 I0
@@ -670,7 +670,7 @@ p223
 I0
 sS'736 /home/SySeVR/data/CVE-2016-2327_VULN_apng_encode_frame.c size_t row_start = s -> last_frame -> linesize [ 0 ] * y + bpp * last_fctl_chunk . x_offset ; 66'
 p224
-I0
+I1
 sS'108 /home/SySeVR/data/CVE_2009_4307_PATCHED_ext4_fill_flex_info.c size = flex_group_count * sizeof ( struct flex_groups ) 23'
 p225
 I0
@@ -685,25 +685,25 @@ p228
 I0
 sS'149 /home/SySeVR/data/CVE_2010_3429_VULN_flic_decode_frame_8BPP.c stream_ptr_after_color_chunk = stream_ptr + chunk_size - 6 65'
 p229
-I0
+I1
 sS'328 /home/SySeVR/data/CVE_2012_4288_VULN_dissect_xtp_ecntl.c len = len + XTP_HEADER_LEN - offset 41'
 p230
-I0
+I1
 sS'82 /home/SySeVR/data/CVE_2009_2909_VULN_ax25_setsockopt.c ax25 -> t1 = opt * HZ 44'
 p231
 I0
 sS'451 /home/SySeVR/data/CVE_2013_1576_VULN_dissect_sdp_media_attribute.c tokenlen = next_offset - offset 302'
 p232
-I0
+I1
 sS'470 /home/SySeVR/data/CVE_2013_1676_VULN_nsBidiPresUtils__ResolveParagraph.c runLength = logicalLimit - lineOffset 112'
 p233
-I0
+I1
 sS'136 /home/SySeVR/data/CVE_2010_3015_PATCHED_ext4_ext_get_blocks.c allocated = ext4_ext_get_actual_len ( & newex ) - ( iblock - le32_to_cpu ( newex . ee_block ) ) 37'
 p234
 I0
 sS'466 /home/SySeVR/data/CVE_2013_1588_VULN_dissect_pft_fec_detailed.c got = ep_alloc ( fcount * sizeof ( guint32 ) ) 45'
 p235
-I0
+I1
 sS'420 /home/SySeVR/data/CVE_2013_0864_PATCHED_gif_copy_img_rect.c src_pr = src_px + w 14'
 p236
 I0
@@ -721,10 +721,10 @@ p240
 I0
 sS'165 /home/SySeVR/data/CVE_2010_3904_VULN_rds_page_copy_user.c ret = __copy_to_user_inatomic ( ptr , addr + offset , bytes ) 15'
 p241
-I0
+I1
 sS'642 /home/SySeVR/data/CVE_2014_8546_VULN_cinepak_decode_vectors.c ip0 = ip1 = ip2 = ip3 = s -> frame -> data [ 0 ] + ( s -> palette_video ? strip -> x1 : strip -> x1 * 3 ) + ( y * s -> frame -> linesize [ 0 ] ) 16'
 p242
-I0
+I1
 sS'874 /home/SySeVR/data/CVE_2013_7024_PATCHED_jpeg2000_decode_tile.c Jpeg2000Component * comp = tile -> comp + compno ; 119'
 p243
 I0
@@ -739,10 +739,10 @@ p246
 I0
 sS'866 /home/SySeVR/data/CVE_2013_7017_VULN_ff_jpeg2000_init_component.c Jpeg2000Cblk * cblk = prec -> cblk + cblkno ; 241'
 p247
-I0
+I1
 sS'549 /home/SySeVR/data/CVE_2013_6381_VULN_qeth_snmp_command.c iob = qeth_get_adapter_cmd ( card , IPA_SETADP_SET_SNMP_CONTROL , QETH_SNMP_SETADP_CMDLENGTH + req_len ) 35'
 p248
-I0
+I1
 sS'884 /home/SySeVR/data/CVE_2014_0221_VULN_dtls1_get_message_fragment.c unsigned char * p = ( unsigned char * ) s -> init_buf -> data + DTLS1_HM_HEADER_LENGTH ; 86'
 p249
 I0
@@ -751,7 +751,7 @@ p250
 I0
 sS'437 /home/SySeVR/data/CVE_2013_0868_VULN_generate_joint_tables.c map [ i ] [ R ] = g + r 57'
 p251
-I0
+I1
 sS'245 /home/SySeVR/data/CVE_2011_3362_PATCHED_decode_residual_block.c run = ( ( level_code - ESCAPE_CODE ) >> 1 ) + 1 13'
 p252
 I0
@@ -766,7 +766,7 @@ p255
 I0
 sS'291 /home/SySeVR/data/CVE_2012_1183_VULN_milliwatt_generate.c len = samples * sizeof ( buf [ 0 ] ) 24'
 p256
-I0
+I1
 sS'635 /home/SySeVR/data/CVE_2014_8369_PATCHED_kvm_pin_pages.c end_gfn = gfn + npages 8'
 p257
 I0
@@ -775,22 +775,22 @@ p258
 I0
 sS'308 /home/SySeVR/data/CVE_2012_2783_VULN_ff_vp56_decode_frame.c mb_row_flip = s -> mb_height - mb_row - 1 93'
 p259
-I0
+I1
 sS'244 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c nextpc = pc + GET_OFFSET ( pc ) 59'
 p260
-I0
+I1
 sS'225 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c curState -> index = x -> cp - gData -> cpbegin 386'
 p261
-I0
+I1
 sS'652 /home/SySeVR/data/CVE_2014_8709_VULN_ieee80211_fragment.c skb -> len = hdrlen + per_fragm 56'
 p262
-I0
+I1
 sS'593 /home/SySeVR/data/CVE_2013_7023_VULN_ff_combine_frame.c pc -> state = ( pc -> state << 8 ) | pc -> buffer [ pc -> last_index + next ] 52'
 p263
-I0
+I1
 sS'620 /home/SySeVR/data/CVE_2014_3640_VULN_udp_input.c uh = ( struct udphdr * ) ( ( caddr_t ) ip + iphlen ) 31'
 p264
-I0
+I1
 sS'367 /home/SySeVR/data/CVE_2012_6618_PATCHED_av_probe_input_buffer.c buftmp = av_realloc ( buf , probe_size + AVPROBE_PADDING_SIZE ) 32'
 p265
 I0
@@ -799,40 +799,40 @@ p266
 I0
 sS'928 /home/SySeVR/data/CVE_2014_8541_VULN_ff_mjpeg_decode_sof.c int bh = ( height + s -> v_max * 8 - 1 ) / ( s -> v_max * 8 ) ; 335'
 p267
-I0
+I1
 sS'844 /home/SySeVR/data/CVE_2013_7010_PATCHED_add_bytes_c.c long b = * ( long * ) ( dst + i ) ; 5'
 p268
 I0
 sS'748 /home/SySeVR/data/CVE_2009_1385_VULN_e1000_clean_rx_irq.c struct sk_buff * new_skb = netdev_alloc_skb ( netdev , length + NET_IP_ALIGN ) ; 89'
 p269
-I0
+I1
 sS'715 /home/SySeVR/data/CVE_2015_3813_VULN_fragment_add_work.c max = fd_i -> offset + fd_i -> len 186'
 p270
 I0
 sS'124 /home/SySeVR/data/CVE_2010_2519_VULN_Mac_Read_POST_Resource.c error = FT_Stream_Read ( stream , ( FT_Byte * ) pfb_data + pfb_pos , rlen ) 86'
 p271
-I0
+I1
 sS'46 /home/SySeVR/data/CVE_2008_0420_PATCHED_nsBMPDecoder__ProcessData.c mRow = new PRUint8 [ ( mBIH . width * mBIH . bpp ) / 8 + 4 ] 75'
 p272
 I0
 sS'848 /home/SySeVR/data/CVE_2013_7010_VULN_add_bytes_c.c long b = * ( long * ) ( dst + i ) ; 5'
 p273
-I0
+I1
 sS'586 /home/SySeVR/data/CVE_2013_7022_PATCHED_g2m_init_buffers.c c -> framebuf = av_mallocz ( c -> framebuf_stride * aligned_height ) 9'
 p274
 I0
 sS'394 /home/SySeVR/data/CVE_2013_0844_VULN_adpcm_decode_frame.c s = & samples [ m * avctx -> channels + channel ] 536'
 p275
-I0
+I1
 sS'758 /home/SySeVR/data/CVE_2011_0021_PATCHED_DecodeTileBlock.c int index = ( sy + y ) * CDG_SCREEN_PITCH + ( sx + x ) ; 19'
 p276
 I0
 sS'15 /home/SySeVR/data/CVE-2016-2327_VULN_apng_encode_frame.c temp_bytestream = av_malloc ( original_bytestream_end - original_bytestream ) 39'
 p277
-I0
+I1
 sS'865 /home/SySeVR/data/CVE_2013_7017_VULN_ff_jpeg2000_cleanup.c Jpeg2000ResLevel * reslevel = comp -> reslevel + reslevelno ; 7'
 p278
-I0
+I1
 sS'710 /home/SySeVR/data/CVE_2015_3813_VULN_fragment_add_work.c fd_head -> error = "offset + len < offset" 313'
 p279
 I0
@@ -841,10 +841,10 @@ p280
 I0
 sS'403 /home/SySeVR/data/CVE_2013_0844_VULN_adpcm_decode_frame.c * samples ++ = c -> status [ 0 ] . predictor + c -> status [ 1 ] . predictor 244'
 p281
-I0
+I1
 sS'577 /home/SySeVR/data/CVE_2013_7017_VULN_ff_jpeg2000_init_component.c band -> f_stepsize = pow ( 2.0 , gain - qntsty -> expn [ gbandno ] ) 118'
 p282
-I0
+I1
 sS'406 /home/SySeVR/data/CVE_2013_0850_PATCHED_decode_slice_header.c tmp = h -> pps . init_qp + get_se_golomb ( & s -> gb ) 646'
 p283
 I0
@@ -856,7 +856,7 @@ p285
 I0
 sS'725 /home/SySeVR/data/CVE-2015-1872_VULN_ff_mjpeg_decode_sof.c int bw = ( width + s -> h_max * 8 - 1 ) / ( s -> h_max * 8 ) ; 361'
 p286
-I0
+I1
 sS'880 /home/SySeVR/data/CVE_2013_7024_PATCHED_jpeg2000_decode_tile.c Jpeg2000ResLevel * rlevel = comp -> reslevel + reslevelno ; 17'
 p287
 I0
@@ -874,7 +874,7 @@ p291
 I0
 sS'266 /home/SySeVR/data/CVE_2011_3945_VULN_decode_frame.c inp = prev + start 68'
 p292
-I0
+I1
 sS'33 /home/SySeVR/data/CVE_2006_6333_PATCHED_tr_rx.c iph = ( struct iphdr * ) ( data + lan_hdr_len + sizeof ( struct trllc ) ) 110'
 p293
 I0
@@ -892,10 +892,10 @@ p297
 I0
 sS'203 /home/SySeVR/data/CVE_2011_1747_VULN_agp_allocate_memory.c scratch_pages = ( page_count + ENTRIES_PER_PAGE - 1 ) / ENTRIES_PER_PAGE 28'
 p298
-I0
+I1
 sS'379 /home/SySeVR/data/CVE_2013_0771_VULN_nsTextFrame__ReflowText.c limitLength = forceBreak - offset 241'
 p299
-I0
+I1
 sS'336 /home/SySeVR/data/CVE_2012_4298_PATCHED_vwr_read_rec_data_ethernet.c s_usec = start_time - ( s_sec * US_IN_SEC ) 86'
 p300
 I0
@@ -904,7 +904,7 @@ p301
 I0
 sS'646 /home/SySeVR/data/CVE_2014_8547_VULN_gif_read_image.c ptr1 = ( uint32_t * ) frame -> data [ 0 ] + top * linesize + left 119'
 p302
-I0
+I1
 sS'597 /home/SySeVR/data/CVE_2013_7024_PATCHED_jpeg2000_decode_tile.c dst = line + x / s -> cdx [ compno ] * pixelsize + compno * ! planar 93'
 p303
 I0
@@ -919,10 +919,10 @@ p306
 I0
 sS'48 /home/SySeVR/data/CVE_2008_3527_VULN_arch_setup_additional_pages.c vma -> vm_end = addr + PAGE_SIZE 22'
 p307
-I0
+I1
 sS'658 /home/SySeVR/data/CVE_2014_9658_VULN_tt_face_load_kern.c p_limit = p + table_size 35'
 p308
-I0
+I1
 sS'209 /home/SySeVR/data/CVE_2011_2689_PATCHED_gfs2_fallocate.c al -> al_requested = data_blocks + ind_blocks 67'
 p309
 I0
@@ -937,7 +937,7 @@ p312
 I0
 sS'395 /home/SySeVR/data/CVE_2013_0844_VULN_adpcm_decode_frame.c samplesC = samples + channel 459'
 p313
-I0
+I1
 sS'282 /home/SySeVR/data/CVE_2012_0477_PATCHED_nsISO2022CNToUnicode__Convert.c aLen = destEnd - dest 454'
 p314
 I0
@@ -946,13 +946,13 @@ p315
 I0
 sS'392 /home/SySeVR/data/CVE_2013_0844_VULN_adpcm_decode_frame.c sampledat = ( ( prev [ ch ] [ 0 ] * factor1 + prev [ ch ] [ 1 ] * factor2 ) >> 11 ) + ( sampledat << exp ) 679'
 p316
-I0
+I1
 sS'604 /home/SySeVR/data/CVE_2014_0160_VULN_dtls1_process_heartbeat.c r = dtls1_write_bytes ( s , TLS1_RT_HEARTBEAT , buffer , 3 + payload + padding ) 39'
 p317
-I0
+I1
 sS'575 /home/SySeVR/data/CVE_2013_7017_VULN_ff_jpeg2000_init_component.c prec -> coord [ 1 ] [ 0 ] = ( precno / reslevel -> num_precincts_x ) * ( 1 << log2_band_prec_height ) 199'
 p318
-I0
+I1
 sS'26 /home/SySeVR/data/CVE_2006_4813_PATCHED___block_prepare_write.c block_end = block_start + blocksize 25'
 p319
 I0
@@ -970,31 +970,31 @@ p323
 I0
 sS'802 /home/SySeVR/data/CVE_2013_0777_VULN_nsCSSRendering__PaintBoxShadowOuter.c gfxFloat spreadDistance = shadowItem -> mSpread / twipsPerPixel ; 154'
 p324
-I0
+I1
 sS'909 /home/SySeVR/data/CVE_2014_5272_PATCHED_decode_frame.c uint8_t * row = & s -> frame . data [ 0 ] [ y * s -> frame . linesize [ 0 ] ] ; 63'
 p325
 I0
 sS'872 /home/SySeVR/data/CVE_2013_7023_VULN_ff_combine_frame.c void * new_buffer = av_fast_realloc ( pc -> buffer , & pc -> buffer_size , ( * buf_size ) + pc -> index + FF_INPUT_BUFFER_PADDING_SIZE ) ; 23'
 p326
-I0
+I1
 sS'821 /home/SySeVR/data/CVE_2013_1678_PATCHED__cairo_xlib_surface_add_glyph.c int c = glyph_surface -> stride * glyph_surface -> height ; 123'
 p327
 I0
 sS'103 /home/SySeVR/data/CVE_2009_4138_VULN_ohci_queue_iso_receive_packet_per_buffer.c d -> data_address = cpu_to_le32 ( d_bus + ( z * sizeof ( * d ) ) ) 42'
 p328
-I0
+I1
 sS'265 /home/SySeVR/data/CVE_2011_3945_VULN_decode_frame.c inp = out + outcnt - offset 86'
 p329
-I0
+I1
 sS'83 /home/SySeVR/data/CVE_2009_2909_VULN_ax25_setsockopt.c ax25 -> rtt = ( opt * HZ ) >> 1 43'
 p330
 I0
 sS'14 /home/SySeVR/data/CVE-2016-2327_VULN_apng_encode_frame.c temp_bytestream_end = temp_bytestream + ( original_bytestream_end - original_bytestream ) 40'
 p331
-I0
+I1
 sS'274 /home/SySeVR/data/CVE_2011_3973_VULN_cavs_decode_frame.c input_size = ( buf_end - buf_ptr ) * 8 29'
 p332
-I0
+I1
 sS'142 /home/SySeVR/data/CVE_2010_3429_PATCHED_flic_decode_frame_8BPP.c pixel_ptr = y_ptr + s -> frame . linesize [ 0 ] - 1 130'
 p333
 I0
@@ -1006,19 +1006,19 @@ p335
 I0
 sS'471 /home/SySeVR/data/CVE_2013_1676_VULN_nsBidiPresUtils__ResolveParagraph.c fragmentLength = NS_MIN ( contentTextLength , end - start ) 96'
 p336
-I0
+I1
 sS'324 /home/SySeVR/data/CVE_2012_4287_VULN_dissect_bson_document.c final_offset = offset + document_length 22'
 p337
-I0
+I1
 sS'730 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c Jpeg2000Cblk * cblk = prec -> cblk + cblkno ; 43'
 p338
-I0
+I1
 sS'104 /home/SySeVR/data/CVE_2009_4138_VULN_ohci_queue_iso_receive_packet_per_buffer.c d = context_get_descriptors ( & ctx -> context , z + header_z , & d_bus ) 30'
 p339
-I0
+I1
 sS'297 /home/SySeVR/data/CVE_2012_2100_VULN_ext4_fill_flex_info.c size = flex_group_count * sizeof ( struct flex_groups ) 23'
 p340
-I0
+I1
 sS'67 /home/SySeVR/data/CVE_2009_1298_VULN_ip_frag_reasm.c clone -> len = clone -> data_len = head -> data_len - plen 60'
 p341
 I0
@@ -1033,7 +1033,7 @@ p344
 I0
 sS'643 /home/SySeVR/data/CVE_2014_8547_VULN_gif_read_image.c ptr = ptr1 + linesize 156'
 p345
-I0
+I1
 sS'278 /home/SySeVR/data/CVE_2012_0475_PATCHED_nsContentUtils__GetUTFOrigin.c aOrigin = NS_ConvertUTF8toUTF16 ( scheme + NS_LITERAL_CSTRING ( "://" ) + hostPort ) 28'
 p346
 I0
@@ -1042,7 +1042,7 @@ p347
 I0
 sS'241 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c x -> parens [ parenIndex ] . index = x -> cp - gData -> cpbegin 157'
 p348
-I0
+I1
 sS'568 /home/SySeVR/data/CVE_2013_7017_PATCHED_ff_jpeg2000_init_component.c Cy0 = Cy0 + ( ( cblkno / prec -> nb_codeblocks_width ) << band -> log2_cblk_height ) 252'
 p349
 I0
@@ -1051,13 +1051,13 @@ p350
 I0
 sS'397 /home/SySeVR/data/CVE_2013_0844_VULN_adpcm_decode_frame.c next_right_sample = ( next_right_sample + ( current_right_sample * coeff1r ) + ( previous_right_sample * coeff2r ) + 0x80 ) >> 8 389'
 p351
-I0
+I1
 sS'449 /home/SySeVR/data/CVE_2013_1576_VULN_dissect_sdp_media_attribute.c parameter_item = proto_tree_add_text ( sdp_media_attribute_tree , tvb , offset , param_end_offset - offset , "Key parameters" ) 357'
 p352
-I0
+I1
 sS'107 /home/SySeVR/data/CVE_2009_4138_VULN_ohci_queue_iso_receive_packet_per_buffer.c packet_count = p -> header_length / ctx -> base . header_size 18'
 p353
-I0
+I1
 sS'73 /home/SySeVR/data/CVE_2009_1385_PATCHED_e1000_clean_rx_irq.c last_byte = * ( skb -> data + length - 1 ) 62'
 p354
 I0
@@ -1066,7 +1066,7 @@ p355
 I0
 sS'419 /home/SySeVR/data/CVE_2013_0862_VULN_process_frame_obj.c ctx -> avctx -> width = FFMAX ( left + w , ctx -> width ) 12'
 p356
-I0
+I1
 sS'855 /home/SySeVR/data/CVE_2013_7017_PATCHED_ff_jpeg2000_cleanup.c Jpeg2000Prec * prec = band -> prec + precno ; 13'
 p357
 I0
@@ -1078,19 +1078,19 @@ p359
 I0
 sS'605 /home/SySeVR/data/CVE_2014_0160_VULN_dtls1_process_heartbeat.c buffer = OPENSSL_malloc ( 1 + 2 + payload + padding ) 28'
 p360
-I0
+I1
 sS'929 /home/SySeVR/data/CVE_2014_8541_VULN_ff_mjpeg_decode_sof.c int bw = ( width + s -> h_max * 8 - 1 ) / ( s -> h_max * 8 ) ; 334'
 p361
-I0
+I1
 sS'556 /home/SySeVR/data/CVE_2013_7011_VULN_read_header.c fs -> slice_height = ( get_symbol ( c , state , 0 ) + 1 ) * f -> height + fs -> slice_y 151'
 p362
-I0
+I1
 sS'558 /home/SySeVR/data/CVE_2013_7013_PATCHED_g2m_init_buffers.c c -> kempf_flags = av_mallocz ( c -> tile_width * aligned_height ) 26'
 p363
 I0
 sS'828 /home/SySeVR/data/CVE_2013_1693_VULN_nsSVGFEMorphologyElement__Filter.c PRUint8 pixel = sourceData [ y1 * stride + 4 * endX + i ] ; 68'
 p364
-I0
+I1
 sS'791 /home/SySeVR/data/CVE_2012_5669_PATCHED__bdf_parse_glyphs.c unsigned short sw = ( unsigned short ) FT_MulDiv ( glyph -> dwidth , 72000L , ( FT_Long ) ( font -> point_size * font -> resolution_x ) ) ; 414'
 p365
 I0
@@ -1099,22 +1099,22 @@ p366
 I0
 sS'366 /home/SySeVR/data/CVE_2012_6616_VULN_mov_text_decode_frame.c end = ptr + FFMAX ( 2 + AV_RB16 ( ptr ) , avpkt -> size ) 28'
 p367
-I0
+I1
 sS'94 /home/SySeVR/data/CVE_2009_4138_PATCHED_ohci_queue_iso_receive_packet_per_buffer.c d -> data_address = cpu_to_le32 ( d_bus + ( z * sizeof ( * d ) ) ) 42'
 p368
 I0
 sS'816 /home/SySeVR/data/CVE_2013_0868_VULN_generate_joint_tables.c int limit1 = limit0 - len1 ; 44'
 p369
-I0
+I1
 sS'843 /home/SySeVR/data/CVE_2013_5593_VULN_nsComboboxControlFrame__AbsolutelyPositionDropDown.c const nsPoint newPos = dropdownPosition + translation ; 50'
 p370
-I0
+I1
 sS'340 /home/SySeVR/data/CVE_2012_4298_PATCHED_vwr_read_rec_data_ethernet.c tsid = ( tsid << 8 ) | s_ptr [ vwr -> LATVAL_OFF + i ] 70'
 p371
 I0
 sS'486 /home/SySeVR/data/CVE_2013_1735_VULN_ImageDocument__ScrollImageTo.c sf -> ScrollTo ( nsPoint ( nsPresContext :: CSSPixelsToAppUnits ( aX / ratio ) - portRect . width / 2 , nsPresContext :: CSSPixelsToAppUnits ( aY / ratio ) - portRect . height / 2 ) , nsIScrollableFrame :: INSTANT ) 20'
 p372
-I0
+I1
 sS'859 /home/SySeVR/data/CVE_2013_7017_PATCHED_ff_jpeg2000_init_component.c Jpeg2000Prec * prec = band -> prec + precno ; 188'
 p373
 I0
@@ -1126,13 +1126,13 @@ p375
 I0
 sS'867 /home/SySeVR/data/CVE_2013_7017_VULN_ff_jpeg2000_init_component.c Jpeg2000Prec * prec = band -> prec + precno ; 188'
 p376
-I0
+I1
 sS'517 /home/SySeVR/data/CVE_2013_4247_PATCHED_build_unc_path_to_root.c full_path = kmalloc ( unc_len + pplen + 1 , GFP_KERNEL ) 9'
 p377
 I0
 sS'796 /home/SySeVR/data/CVE_2013_0771_VULN_nsTextFrame__ReflowText.c int32_t contentLength = offset + charsFit - GetContentOffset ( ) ; 362'
 p378
-I0
+I1
 sS'838 /home/SySeVR/data/CVE_2013_3670_PATCHED_rle_unpack.c unsigned char * dest_end = dest + dest_len ; 8'
 p379
 I0
@@ -1144,13 +1144,13 @@ p381
 I0
 sS'378 /home/SySeVR/data/CVE_2013_0771_VULN_nsTextFrame__ReflowText.c transformedLength = flowEndInTextRun - transformedOffset 252'
 p382
-I0
+I1
 sS'713 /home/SySeVR/data/CVE_2015_3813_VULN_fragment_add_work.c fraglen = fd_head -> datalen - fd_i -> offset 283'
 p383
 I0
 sS'214 /home/SySeVR/data/CVE_2011_2689_VULN_gfs2_fallocate.c rblocks = RES_DINODE + ind_blocks + RES_STATFS + RES_QUOTA + RES_RG_HDR + gfs2_rg_blocks ( al ) 63'
 p384
-I0
+I1
 sS'167 /home/SySeVR/data/CVE_2010_4165_VULN_do_tcp_setsockopt.c tp -> linger2 = val * HZ 231'
 p385
 I0
@@ -1162,7 +1162,7 @@ p387
 I0
 sS'410 /home/SySeVR/data/CVE_2013_0850_VULN_decode_slice_header.c id_list [ i ] = h -> short_ref_count + k 750'
 p388
-I0
+I1
 sS'345 /home/SySeVR/data/CVE_2012_4298_VULN_vwr_read_rec_data_ethernet.c end_time = e_time / NS_IN_US 89'
 p389
 I0
@@ -1171,7 +1171,7 @@ p390
 I0
 sS'231 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c pc = pc + GET_OFFSET ( pc ) 267'
 p391
-I0
+I1
 sS'653 /home/SySeVR/data/CVE_2014_8709_VULN_ieee80211_fragment.c tmp = dev_alloc_skb ( local -> tx_headroom + frag_threshold + IEEE80211_ENCRYPT_HEADROOM + IEEE80211_ENCRYPT_TAILROOM ) 23'
 p392
 I0
@@ -1183,7 +1183,7 @@ p394
 I0
 sS'175 /home/SySeVR/data/CVE_2010_4649_VULN_ib_uverbs_poll_cq.c rsize = sizeof * resp + cmd . ne * sizeof ( struct ib_uverbs_wc ) 20'
 p395
-I0
+I1
 sS'116 /home/SySeVR/data/CVE_2010_0307_PATCHED_load_elf_binary.c nbyte = ELF_MIN_ALIGN - nbyte 209'
 p396
 I0
@@ -1192,13 +1192,13 @@ p397
 I0
 sS'453 /home/SySeVR/data/CVE_2013_1576_VULN_dissect_sdp_media_attribute.c tokenlen = next_offset - offset 191'
 p398
-I0
+I1
 sS'580 /home/SySeVR/data/CVE_2013_7021_PATCHED_filter_frame.c s -> pts = s -> first_pts + av_rescale_q ( s -> frames_out , outlink -> time_base , inlink -> time_base ) 89'
 p399
 I0
 sS'892 /home/SySeVR/data/CVE_2014_1522_VULN_ComputeCustom.c float sampleInterpolationFactor = mPhase - j1 ; 31'
 p400
-I0
+I1
 sS'68 /home/SySeVR/data/CVE_2009_1298_VULN_ip_frag_reasm.c len = ihlen + qp -> q . len 35'
 p401
 I0
@@ -1207,13 +1207,13 @@ p402
 I0
 sS'685 /home/SySeVR/data/CVE_2015_3331_VULN___driver_rfc4106_decrypt.c src = kmalloc ( req -> cryptlen + req -> assoclen , GFP_ATOMIC ) 49'
 p403
-I0
+I1
 sS'53 /home/SySeVR/data/CVE_2008_4302_PATCHED_pipe_to_file.c ret = mapping -> a_ops -> prepare_write ( file , page , offset , offset + this_len ) 42'
 p404
 I0
 sS'3 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c * dst = val << ( precision - cbps ) 154'
 p405
-I0
+I1
 sS'485 /home/SySeVR/data/CVE_2013_1732_VULN_nsBlockFrame__Reflow.c bbox . y = position . mBaseline - metrics . ascent 189'
 p406
 I0
@@ -1225,10 +1225,10 @@ p408
 I0
 sS'120 /home/SySeVR/data/CVE_2010_2495_VULN_pppol2tp_sendmsg.c skb = sock_wmalloc ( sk , NET_SKB_PAD + sizeof ( struct iphdr ) + sizeof ( struct udphdr ) + hdr_len + sizeof ( ppph ) + total_len , 0 , GFP_KERNEL ) 38'
 p409
-I0
+I1
 sS'132 /home/SySeVR/data/CVE_2010_2962_VULN_i915_gem_gtt_pwrite_fast.c page_length = PAGE_SIZE - page_offset 44'
 p410
-I0
+I1
 sS'177 /home/SySeVR/data/CVE_2011_0021_PATCHED_DecodeScroll.c p_cdg -> screen [ dy * CDG_SCREEN_PITCH + dx ] = copy [ y * CDG_SCREEN_PITCH + x ] 65'
 p411
 I0
@@ -1237,31 +1237,31 @@ p412
 I0
 sS'890 /home/SySeVR/data/CVE_2014_1522_VULN_ComputeCustom.c float higher = sampleInterpolationFactor * higherWaveData [ j1 ] + ( 1 - sampleInterpolationFactor ) * higherWaveData [ j2 ] ; 34'
 p413
-I0
+I1
 sS'196 /home/SySeVR/data/CVE_2011_1138_VULN_dissect_6lowpan_hc1.c nhdr_list -> length = length + sizeof ( struct udp_hdr ) 291'
 p414
-I0
+I1
 sS'554 /home/SySeVR/data/CVE_2013_7011_VULN_read_header.c fs -> slice_height = fs -> slice_height / f -> num_v_slices - fs -> slice_y 156'
 p415
-I0
+I1
 sS'490 /home/SySeVR/data/CVE_2013_1767_VULN_shmem_remount_fs.c inodes = sbinfo -> max_inodes - sbinfo -> free_inodes 12'
 p416
-I0
+I1
 sS'173 /home/SySeVR/data/CVE_2010_4342_VULN_aun_incoming.c newskb = alloc_skb ( ( len - sizeof ( struct aunhdr ) + 15 ) & ~15 , GFP_ATOMIC ) 15'
 p417
-I0
+I1
 sS'912 /home/SySeVR/data/CVE_2014_5272_PATCHED_decode_frame.c uint8_t * row = & s -> frame . data [ 0 ] [ y * s -> frame . linesize [ 0 ] ] ; 38'
 p418
 I0
 sS'4 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c dst = linel + ( x * pixelsize + compno * ! planar ) 147'
 p419
-I0
+I1
 sS'443 /home/SySeVR/data/CVE_2013_1576_VULN_dissect_sdp_media_attribute.c tokenlen = param_end_offset - next_offset + 1 434'
 p420
-I0
+I1
 sS'230 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c nextpc = pc + ARG_LEN 273'
 p421
-I0
+I1
 sS'764 /home/SySeVR/data/CVE_2011_1747_PATCHED_agp_create_user_memory.c unsigned long alloc_size = num_agp_pages * sizeof ( struct page * ) ; 4'
 p422
 I0
@@ -1270,10 +1270,10 @@ p423
 I0
 sS'830 /home/SySeVR/data/CVE_2013_1693_VULN_nsSVGFEMorphologyElement__Filter.c PRUint32 targIndex = y * stride + 4 * x ; 41'
 p424
-I0
+I1
 sS'171 /home/SySeVR/data/CVE_2010_4256_VULN_pipe_fcntl.c ret = pipe -> buffers * PAGE_SIZE 31'
 p425
-I0
+I1
 sS'857 /home/SySeVR/data/CVE_2013_7017_PATCHED_ff_jpeg2000_cleanup.c Jpeg2000ResLevel * reslevel = comp -> reslevel + reslevelno ; 7'
 p426
 I0
@@ -1291,10 +1291,10 @@ p430
 I0
 sS'216 /home/SySeVR/data/CVE_2011_2689_VULN_gfs2_fallocate.c al -> al_requested = data_blocks + ind_blocks 50'
 p431
-I0
+I1
 sS'150 /home/SySeVR/data/CVE_2010_3429_VULN_flic_decode_frame_8BPP.c pixel_limit = s -> avctx -> height * s -> frame . linesize [ 0 ] 46'
 p432
-I0
+I1
 sS'616 /home/SySeVR/data/CVE_2014_2889_VULN_bpf_jit_compile.c addrs = kmalloc ( flen * sizeof ( * addrs ) , GFP_KERNEL ) 20'
 p433
 I0
@@ -1303,13 +1303,13 @@ p434
 I0
 sS'159 /home/SySeVR/data/CVE_2010_3859_VULN_verify_iovec.c size = m -> msg_iovlen * sizeof ( struct iovec ) 18'
 p435
-I0
+I1
 sS'139 /home/SySeVR/data/CVE_2010_3429_PATCHED_flic_decode_frame_15_16BPP.c stream_ptr = stream_ptr + chunk_size - 6 114'
 p436
 I0
 sS'444 /home/SySeVR/data/CVE_2013_1576_VULN_dissect_sdp_media_attribute.c tokenlen = next_offset - offset 423'
 p437
-I0
+I1
 sS'854 /home/SySeVR/data/CVE_2013_7014_PATCHED_add_bytes_l2_c.c long a = * ( long * ) ( src1 + i ) ; 5'
 p438
 I0
@@ -1327,10 +1327,10 @@ p442
 I0
 sS'202 /home/SySeVR/data/CVE_2011_1573_VULN_sctp_make_init_ack.c chunksize = sizeof ( initack ) + addrs_len + cookie_len + unkparam_len 44'
 p443
-I0
+I1
 sS'555 /home/SySeVR/data/CVE_2013_7011_VULN_read_header.c fs -> slice_width = fs -> slice_width / f -> num_h_slices - fs -> slice_x 155'
 p444
-I0
+I1
 sS'351 /home/SySeVR/data/CVE_2012_4298_VULN_vwr_read_rec_data_ethernet.c s_ptr = & ( rec [ rec_size - vwr -> STATS_LEN ] ) 30'
 p445
 I0
@@ -1339,19 +1339,19 @@ p446
 I0
 sS'482 /home/SySeVR/data/CVE_2013_1722_VULN_nsAnimationManager__BuildAnimations.c aDest . mStartTime = now + TimeDuration :: FromMilliseconds ( aSrc . GetDelay ( ) ) 22'
 p447
-I0
+I1
 sS'663 /home/SySeVR/data/CVE_2014_9679_PATCHED_cupsRasterReadPixels.c r -> remaining -= len / r -> header . cupsBytesPerLine 26'
 p448
 I0
 sS'396 /home/SySeVR/data/CVE_2013_0844_VULN_adpcm_decode_frame.c sample = ( sample + c -> status [ channel ] . sample1 * coeff [ channel ] [ 0 ] + c -> status [ channel ] . sample2 * coeff [ channel ] [ 1 ] + 0x80 ) >> 8 424'
 p449
-I0
+I1
 sS'213 /home/SySeVR/data/CVE_2011_2689_VULN_gfs2_fallocate.c error = gfs2_trans_begin ( sdp , rblocks , PAGE_CACHE_SIZE / sdp -> sd_sb . sb_bsize ) 68'
 p450
-I0
+I1
 sS'472 /home/SySeVR/data/CVE_2013_1693_VULN_nsSVGFEMorphologyElement__Filter.c extrema [ i ] = sourceData [ targIndex + i ] 48'
 p451
-I0
+I1
 sS'926 /home/SySeVR/data/CVE_2014_7937_PATCHED_vorbis_residue_decode_internal.c unsigned vqclass = classifs [ j_times_ptns_to_read + partition_count ] ; 57'
 p452
 I0
@@ -1369,16 +1369,16 @@ p456
 I0
 sS'376 /home/SySeVR/data/CVE_2013_0771_VULN_nsTextFrame__ReflowText.c aMetrics . height = aMetrics . ascent + NSToCoordCeil ( textMetrics . mDescent ) 385'
 p457
-I0
+I1
 sS'899 /home/SySeVR/data/CVE_2014_5272_PATCHED_decode_frame.c uint8_t * row = & s -> frame . data [ 0 ] [ y * s -> frame . linesize [ 0 ] ] ; 163'
 p458
 I0
 sS'184 /home/SySeVR/data/CVE_2011_1010_VULN_mac_partition.c part = ( struct CVE_2011_1010_VULN_mac_partition * ) ( data + secsize % 512 ) 28'
 p459
-I0
+I1
 sS'727 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c Jpeg2000Component * comp = tile -> comp + compno ; 129'
 p460
-I0
+I1
 sS'626 /home/SySeVR/data/CVE_2014_4655_PATCHED_snd_ctl_elem_add.c ue -> elem_data = ( char * ) ue + sizeof ( * ue ) 80'
 p461
 I0
@@ -1393,7 +1393,7 @@ p464
 I0
 sS'625 /home/SySeVR/data/CVE_2014_4654_VULN_snd_ctl_elem_add.c ue -> elem_data = ( char * ) ue + sizeof ( * ue ) 87'
 p465
-I0
+I1
 sS'55 /home/SySeVR/data/CVE_2008_5134_PATCHED_lbs_process_bss.c p = bss -> rates + n_basic_rates 170'
 p466
 I0
@@ -1411,7 +1411,7 @@ p470
 I0
 sS'384 /home/SySeVR/data/CVE_2013_0772_VULN_nsGIFDecoder2__DoLzw.c rowp = mImageData + mGIFStruct . irow * bpr 35'
 p471
-I0
+I1
 sS'63 /home/SySeVR/data/CVE_2009_0946_VULN_ft_smooth_render_generic.c height = ( FT_UInt ) ( ( cbox . yMax - cbox . yMin ) >> 6 ) 47'
 p472
 I0
@@ -1426,7 +1426,7 @@ p475
 I0
 sS'654 /home/SySeVR/data/CVE_2014_9428_VULN_batadv_frag_merge_packets.c size = entry -> skb -> len - hdr_size 41'
 p476
-I0
+I1
 sS'421 /home/SySeVR/data/CVE_2013_0864_PATCHED_gif_copy_img_rect.c dst_px = ( uint32_t * ) dst_py + l 13'
 p477
 I0
@@ -1435,13 +1435,13 @@ p478
 I0
 sS'226 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c curState -> index = startcp - gData -> cpbegin 344'
 p479
-I0
+I1
 sS'581 /home/SySeVR/data/CVE_2013_7021_PATCHED_filter_frame.c delta = av_rescale_q_rnd ( buf -> pts - s -> pts , inlink -> time_base , outlink -> time_base , s -> rounding ) 33'
 p480
 I0
 sS'594 /home/SySeVR/data/CVE_2013_7023_VULN_ff_combine_frame.c * buf_size = pc -> overread_index = pc -> index + next 33'
 p481
-I0
+I1
 sS'712 /home/SySeVR/data/CVE_2015_3813_VULN_fragment_add_work.c fd_head -> error = "fraglen < dfpos - offset" 302'
 p482
 I0
@@ -1450,40 +1450,40 @@ p483
 I0
 sS'164 /home/SySeVR/data/CVE_2010_3904_VULN_rds_page_copy_user.c ret = __copy_from_user_inatomic ( addr + offset , ptr , bytes ) 17'
 p484
-I0
+I1
 sS'100 /home/SySeVR/data/CVE_2009_4138_VULN_ohci_queue_iso_receive_packet_per_buffer.c pd -> data_address = cpu_to_le32 ( page_bus + offset ) 59'
 p485
-I0
+I1
 sS'806 /home/SySeVR/data/CVE_2013_0844_VULN_adpcm_decode_frame.c const int16_t * samples_end = samples + avctx -> channels * nb_samples ; 203'
 p486
-I0
+I1
 sS'344 /home/SySeVR/data/CVE_2012_4298_VULN_vwr_read_rec_data_ethernet.c latency = ( guint32 ) ( s_time - sig_ts ) 121'
 p487
-I0
+I1
 sS'402 /home/SySeVR/data/CVE_2013_0844_VULN_adpcm_decode_frame.c * samples ++ = c -> status [ 0 ] . predictor - c -> status [ 1 ] . predictor 245'
 p488
-I0
+I1
 sS'111 /home/SySeVR/data/CVE_2010_0307_PATCHED_load_elf_binary.c k = elf_ppnt -> p_vaddr + elf_ppnt -> p_memsz 294'
 p489
 I0
 sS'850 /home/SySeVR/data/CVE_2013_7010_VULN_diff_bytes_c.c long b = * ( long * ) ( src2 + i ) ; 19'
 p490
-I0
+I1
 sS'728 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c Jpeg2000CodingStyle * codsty = tile -> codsty + compno ; 81'
 p491
-I0
+I1
 sS'312 /home/SySeVR/data/CVE_2012_2797_PATCHED_decode_frame_mp3on4.c s -> frame -> nb_samples = out_size / ( avctx -> channels * sizeof ( OUT_INT ) ) 83'
 p492
 I0
 sS'179 /home/SySeVR/data/CVE_2011_0021_VULN_DecodeScroll.c dy = ( dy + CDG_SCREEN_WIDTH ) % CDG_SCREEN_WIDTH 57'
 p493
-I0
+I1
 sS'734 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c Jpeg2000CodingStyle * codsty = tile -> codsty + compno ; 16'
 p494
 I0
 sS'228 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c curState -> index = startcp - gData -> cpbegin 288'
 p495
-I0
+I1
 sS'249 /home/SySeVR/data/CVE_2011_3363_PATCHED_cifs_mount.c cifs_sb -> wsize = min ( cifs_sb -> wsize , ( tcon -> ses -> server -> maxBuf - MAX_CIFS_HDR_SIZE ) ) 124'
 p496
 I0
@@ -1498,7 +1498,7 @@ p499
 I0
 sS'578 /home/SySeVR/data/CVE_2013_7017_VULN_ff_jpeg2000_init_component.c band -> f_stepsize = SHL ( 2048 + qntsty -> mant [ gbandno ] , 2 + numbps - qntsty -> expn [ gbandno ] ) 105'
 p500
-I0
+I1
 sS'619 /home/SySeVR/data/CVE_2014_3631_PATCHED_assoc_array_gc.c new_s = kmalloc ( sizeof ( struct assoc_array_shortcut ) + keylen * sizeof ( unsigned long ) , GFP_KERNEL ) 40'
 p501
 I0
@@ -1510,10 +1510,10 @@ p503
 I0
 sS'644 /home/SySeVR/data/CVE_2014_8547_VULN_gif_read_image.c ptr = ptr1 + linesize * y1 147'
 p504
-I0
+I1
 sS'2 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c * dst = val << ( precision - cbps ) 164'
 p505
-I0
+I1
 sS'546 /home/SySeVR/data/CVE_2013_6381_PATCHED_qeth_snmp_command.c ureq = memdup_user ( udata , req_len + sizeof ( struct qeth_snmp_ureq_hdr ) ) 26'
 p506
 I0
@@ -1525,13 +1525,13 @@ p508
 I0
 sS'413 /home/SySeVR/data/CVE_2013_0850_VULN_decode_slice_header.c unwrap_prev_frame_num = ( h -> frame_num - h -> sps . ref_frame_count ) - 1 356'
 p509
-I0
+I1
 sS'589 /home/SySeVR/data/CVE_2013_7022_VULN_g2m_init_buffers.c c -> jpeg_tile = av_mallocz ( c -> tile_stride * aligned_height ) 23'
 p510
-I0
+I1
 sS'320 /home/SySeVR/data/CVE_2012_4287_VULN_dissect_bson_document.c final_offset = offset + document_length 22'
 p511
-I0
+I1
 sS'811 /home/SySeVR/data/CVE_2013_0864_PATCHED_gif_copy_img_rect.c const uint32_t * src_px , * src_pr , * src_py = src + y_start , * dst_py = dst + y_start ; 5'
 p512
 I0
@@ -1543,7 +1543,7 @@ p514
 I0
 sS'638 /home/SySeVR/data/CVE_2014_8545_VULN_decode_frame.c s -> bits_per_pixel = s -> bit_depth * s -> channels 107'
 p515
-I0
+I1
 sS'711 /home/SySeVR/data/CVE_2015_3813_VULN_fragment_add_work.c dfpos = MAX ( dfpos , ( fd_i -> offset + fraglen ) ) 307'
 p516
 I0
@@ -1552,22 +1552,22 @@ p517
 I0
 sS'889 /home/SySeVR/data/CVE_2014_1508_VULN_nsDisplayNotation__Paint.c gfxRect rect = presContext -> AppUnitsToGfxUnits ( mRect + ToReferenceFrame ( ) ) ; 6'
 p518
-I0
+I1
 sS'75 /home/SySeVR/data/CVE_2009_2846_PATCHED_eisa_eeprom_read.c count = * ppos + count < HPEE_MAX_LENGTH ? count : HPEE_MAX_LENGTH - * ppos 11'
 p519
 I0
 sS'576 /home/SySeVR/data/CVE_2013_7017_VULN_ff_jpeg2000_init_component.c nb_precincts = reslevel -> num_precincts_x * reslevel -> num_precincts_y 185'
 p520
-I0
+I1
 sS'729 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c Jpeg2000Component * comp = tile -> comp + compno ; 80'
 p521
-I0
+I1
 sS'696 /home/SySeVR/data/CVE_2015_3809_PATCHED_dissect_lbmr_pser.c hdr_len = ( int ) tvb_get_ntohs ( tvb , curr_offset + O_LBMR_PSER_T_LEN ) 11'
 p522
 I0
 sS'227 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c nextpc = pc + ARG_LEN 331'
 p523
-I0
+I1
 sS'319 /home/SySeVR/data/CVE_2012_4186_PATCHED_nsWaveReader__LoadFormatChunk.c PR_STATIC_ASSERT ( PR_UINT16_MAX + ( PR_UINT16_MAX % 2 ) < UINT_MAX / sizeof ( char ) ) 65'
 p524
 I0
@@ -1579,19 +1579,19 @@ p526
 I0
 sS'588 /home/SySeVR/data/CVE_2013_7022_VULN_g2m_init_buffers.c c -> kempf_buf = av_mallocz ( ( c -> tile_width + 1 ) * aligned_height + FF_INPUT_BUFFER_PADDING_SIZE ) 24'
 p527
-I0
+I1
 sS'740 /home/SySeVR/data/CVE_2008_0420_PATCHED_nsBMPDecoder__ProcessData.c PRUint32 toCopy = ( WIN_HEADER_LENGTH + BITFIELD_LENGTH ) - mPos ; 125'
 p528
 I0
 sS'939 /home/SySeVR/data/CVE_2015_3808_VULN_dissect_lbmr_pser.c guint8 opt_type = tvb_get_guint8 ( tvb , curr_offset + O_LBMR_PSER_OPT_HDR_T_TYPE ) ; 51'
 p529
-I0
+I1
 sS'123 /home/SySeVR/data/CVE_2010_2500_VULN_gray_render_span.c p = ( unsigned char * ) map -> buffer - y * map -> pitch 12'
 p530
-I0
+I1
 sS'759 /home/SySeVR/data/CVE_2011_0021_VULN_DecodeScroll.c int dx = i_shifth + x ; 52'
 p531
-I0
+I1
 sS'702 /home/SySeVR/data/CVE_2015_3811_VULN_wcp_uncompress.c buf_end = buf_start + MAX_WIN_BUF_LEN 21'
 p532
 I0
@@ -1609,7 +1609,7 @@ p536
 I0
 sS'864 /home/SySeVR/data/CVE_2013_7017_VULN_ff_jpeg2000_cleanup.c Jpeg2000Band * band = reslevel -> band + bandno ; 10'
 p537
-I0
+I1
 sS'361 /home/SySeVR/data/CVE_2012_5669_PATCHED__bdf_parse_glyphs.c bp = glyph -> bitmap + p -> row * glyph -> bpr 286'
 p538
 I0
@@ -1618,13 +1618,13 @@ p539
 I0
 sS'550 /home/SySeVR/data/CVE_2013_6381_VULN_qeth_snmp_command.c ureq = memdup_user ( udata , req_len + sizeof ( struct qeth_snmp_ureq_hdr ) ) 22'
 p540
-I0
+I1
 sS'898 /home/SySeVR/data/CVE_2014_5272_PATCHED_decode_frame.c uint8_t * row = & s -> frame . data [ 0 ] [ y * s -> frame . linesize [ 0 ] ] ; 168'
 p541
 I0
 sS'220 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c gData -> backTrackSP = ( REBackTrackData * ) ( ( char * ) backTrackData - backTrackData -> sz ) 497'
 p542
-I0
+I1
 sS'708 /home/SySeVR/data/CVE_2015_3813_PATCHED_fragment_add_work.c max = fd_i -> offset + fd_i -> len 188'
 p543
 I0
@@ -1633,7 +1633,7 @@ p544
 I0
 sS'243 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c nextpc = pc + GET_OFFSET ( pc ) 85'
 p545
-I0
+I1
 sS'538 /home/SySeVR/data/CVE_2013_6367_PATCHED_apic_get_tmcct.c tmcct = div64_u64 ( ns , ( APIC_BUS_CYCLE_NS * apic -> divide_count ) ) 19'
 p546
 I0
@@ -1669,13 +1669,13 @@ p556
 I0
 sS'6 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c y = tile -> comp [ compno ] . coord [ 1 ] [ 0 ] - s -> image_offset_y / s -> cdy [ compno ] 141'
 p557
-I0
+I1
 sS'119 /home/SySeVR/data/CVE_2010_2495_VULN_pppol2tp_sendmsg.c udp_len = hdr_len + sizeof ( ppph ) + total_len 53'
 p558
 I0
 sS'534 /home/SySeVR/data/CVE_2013_5593_VULN_nsComboboxControlFrame__AbsolutelyPositionDropDown.c dropdownPosition . x = GetRect ( ) . width - dropdownSize . width 44'
 p559
-I0
+I1
 sS'655 /home/SySeVR/data/CVE_2014_9657_PATCHED_tt_face_load_hdmx.c limit = p + table_size 21'
 p560
 I0
@@ -1687,10 +1687,10 @@ p562
 I0
 sS'455 /home/SySeVR/data/CVE_2013_1576_VULN_dissect_sdp_media_attribute.c tokenlen = next_offset - offset 96'
 p563
-I0
+I1
 sS'215 /home/SySeVR/data/CVE_2011_2689_VULN_gfs2_fallocate.c al -> al_requested = data_blocks + ind_blocks 61'
 p564
-I0
+I1
 sS'77 /home/SySeVR/data/CVE_2009_2909_PATCHED_ax25_setsockopt.c ax25 -> t2 = opt * HZ 52'
 p565
 I0
@@ -1699,7 +1699,7 @@ p566
 I0
 sS'551 /home/SySeVR/data/CVE_2013_7009_VULN_rpza_decode_stream.c block_ptr = row_ptr + pixel_ptr 138'
 p567
-I0
+I1
 sS'943 /home/SySeVR/data/CVE_2015_3813_PATCHED_fragment_add_work.c guint32 end_offset = fd -> offset + fd -> len ; 134'
 p568
 I0
@@ -1708,22 +1708,22 @@ p569
 I0
 sS'439 /home/SySeVR/data/CVE_2013_0868_VULN_generate_joint_tables.c len [ i ] = len0 + len1 + len2 52'
 p570
-I0
+I1
 sS'772 /home/SySeVR/data/CVE_2012_0464_VULN_array_toString_sub.c const Value * end = beg + Min ( length , obj -> getDenseArrayInitializedLength ( ) ) ; 36'
 p571
-I0
+I1
 sS'5 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c x = tile -> comp [ compno ] . coord [ 0 ] [ 0 ] - s -> image_offset_x / s -> cdx [ compno ] 146'
 p572
-I0
+I1
 sS'803 /home/SySeVR/data/CVE_2013_0782_PATCHED_nsSaveAsCharset__HandleFallBack.c char * temp = ( char * ) PR_Realloc ( * outString , * bufferLength + addLength + 1 ) ; 18'
 p573
 I0
 sS'622 /home/SySeVR/data/CVE_2014_4608_VULN_lzo1x_decompress_safe.c * out_len = op - out 197'
 p574
-I0
+I1
 sS'566 /home/SySeVR/data/CVE_2013_7013_VULN_g2m_init_buffers.c c -> synth_tile = av_mallocz ( c -> tile_stride * aligned_height ) 22'
 p575
-I0
+I1
 sS'922 /home/SySeVR/data/CVE_2014_6432_PATCHED_SnifferDecompress.c unsigned char * pin_end = pin + inlen ; 7'
 p576
 I0
@@ -1747,16 +1747,16 @@ p582
 I0
 sS'322 /home/SySeVR/data/CVE_2012_4287_VULN_dissect_bson_document.c final_offset = offset + document_length 22'
 p583
-I0
+I1
 sS'252 /home/SySeVR/data/CVE_2011_3363_VULN_cifs_mount.c cifs_sb -> wsize = min ( cifs_sb -> wsize , ( tcon -> ses -> server -> maxBuf - MAX_CIFS_HDR_SIZE ) ) 124'
 p584
-I0
+I1
 sS'514 /home/SySeVR/data/CVE_2013_4163_VULN_ip6_append_data_mtu.c * maxfraglen = ( ( * mtu - fragheaderlen ) & ~7 ) + fragheaderlen - sizeof ( struct frag_hdr ) 19'
 p585
-I0
+I1
 sS'371 /home/SySeVR/data/CVE_2013_0311_VULN_translate_desc.c _iov -> iov_base = ( void __user * ) ( unsigned long ) ( reg -> userspace_addr + addr - reg -> guest_phys_addr ) 27'
 p586
-I0
+I1
 sS'932 /home/SySeVR/data/CVE_2014_8709_PATCHED_ieee80211_fragment.c int pos = hdrlen + per_fragm ; 9'
 p587
 I0
@@ -1768,7 +1768,7 @@ p589
 I0
 sS'851 /home/SySeVR/data/CVE_2013_7010_VULN_diff_bytes_c.c long a = * ( long * ) ( src1 + i ) ; 18'
 p590
-I0
+I1
 sS'388 /home/SySeVR/data/CVE_2013_0782_PATCHED_nsSaveAsCharset__DoCharsetConversion.c srcLength = inStringLength - pos1 54'
 p591
 I0
@@ -1789,13 +1789,13 @@ p596
 I0
 sS'375 /home/SySeVR/data/CVE_2013_0771_VULN_nsTextFrame__ReflowText.c aMetrics . height = aMetrics . ascent + descent 395'
 p597
-I0
+I1
 sS'234 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c gData -> backTrackSP = ( REBackTrackData * ) ( ( char * ) gData -> backTrackStack + curState -> u . assertion . top ) 227'
 p598
-I0
+I1
 sS'24 /home/SySeVR/data/CVE_2005_4886_VULN_selinux_parse_skb_ipv6.c offset = skb -> nh . raw - skb -> data 7'
 p599
-I0
+I1
 sS'273 /home/SySeVR/data/CVE_2011_3973_PATCHED_decode_residual_block.c run = ( ( level_code - ESCAPE_CODE ) >> 1 ) + 1 13'
 p600
 I0
@@ -1807,7 +1807,7 @@ p602
 I0
 sS'154 /home/SySeVR/data/CVE_2010_3849_VULN_econet_sendmsg.c skb = sock_alloc_send_skb ( sk , len + LL_ALLOCATED_SPACE ( dev ) , msg -> msg_flags & MSG_DONTWAIT , & err ) 81'
 p603
-I0
+I1
 sS'879 /home/SySeVR/data/CVE_2013_7024_PATCHED_jpeg2000_decode_tile.c Jpeg2000Band * band = rlevel -> band + bandno ; 21'
 p604
 I0
@@ -1816,7 +1816,7 @@ p605
 I0
 sS'457 /home/SySeVR/data/CVE_2013_1576_VULN_dissect_sdp_media_attribute.c tokenlen = next_offset - offset 59'
 p606
-I0
+I1
 sS'770 /home/SySeVR/data/CVE_2011_3945_PATCHED_decode_frame.c const uint8_t * buf_end = buf + avpkt -> size ; 4'
 p607
 I0
@@ -1840,10 +1840,10 @@ p613
 I0
 sS'448 /home/SySeVR/data/CVE_2013_1576_VULN_dissect_sdp_media_attribute.c tokenlen = param_end_offset - offset 374'
 p614
-I0
+I1
 sS'579 /home/SySeVR/data/CVE_2013_7017_VULN_ff_jpeg2000_init_component.c numbps = cbps + lut_gain [ codsty -> transform == FF_DWT53 ] [ bandno + ( reslevelno > 0 ) ] 103'
 p615
-I0
+I1
 sS'126 /home/SySeVR/data/CVE_2010_2803_VULN_drm_ioctl.c ioctl = & dev -> driver -> ioctls [ nr - DRM_COMMAND_BASE ] 28'
 p616
 I0
@@ -1855,16 +1855,16 @@ p618
 I0
 sS'507 /home/SySeVR/data/CVE_2013_3670_VULN_rle_unpack.c ps_end = src + src_len 11'
 p619
-I0
+I1
 sS'918 /home/SySeVR/data/CVE_2014_6429_VULN_SnifferDecompress.c unsigned char * pin_end = pin + inlen ; 7'
 p620
-I0
+I1
 sS'105 /home/SySeVR/data/CVE_2009_4138_VULN_ohci_queue_iso_receive_packet_per_buffer.c z = DIV_ROUND_UP ( payload_per_buffer + offset , PAGE_SIZE ) + 1 29'
 p621
-I0
+I1
 sS'726 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c Jpeg2000CodingStyle * codsty = tile -> codsty + compno ; 130'
 p622
-I0
+I1
 sS'168 /home/SySeVR/data/CVE_2010_4165_VULN_do_tcp_setsockopt.c tp -> keepalive_intvl = val * HZ 210'
 p623
 I0
@@ -1876,7 +1876,7 @@ p625
 I0
 sS'606 /home/SySeVR/data/CVE_2014_0160_VULN_tls1_process_heartbeat.c r = ssl3_write_bytes ( s , TLS1_RT_HEARTBEAT , buffer , 3 + payload + padding ) 39'
 p626
-I0
+I1
 sS'268 /home/SySeVR/data/CVE_2011_3945_VULN_decode_frame.c prev = av_realloc ( c -> prev , w * h * 2 ) 31'
 p627
 I0
@@ -1897,34 +1897,34 @@ p632
 I0
 sS'592 /home/SySeVR/data/CVE_2013_7023_VULN_ff_combine_frame.c pc -> state64 = ( pc -> state64 << 8 ) | pc -> buffer [ pc -> last_index + next ] 53'
 p633
-I0
+I1
 sS'182 /home/SySeVR/data/CVE_2011_0726_VULN_do_task_stat.c start_time = ( unsigned long long ) task -> real_start_time . tv_sec * NSEC_PER_SEC + task -> real_start_time . tv_nsec 100'
 p634
 I0
 sS'924 /home/SySeVR/data/CVE_2014_6432_VULN_SnifferDecompress.c unsigned char * pin_end = pin + inlen ; 7'
 p635
-I0
+I1
 sS'540 /home/SySeVR/data/CVE_2013_6380_PATCHED_aac_send_raw_srb.c user_reply = arg + fibsize 67'
 p636
 I0
 sS'186 /home/SySeVR/data/CVE_2011_1044_VULN_ib_uverbs_poll_cq.c rsize = sizeof * resp + cmd . ne * sizeof ( struct ib_uverbs_wc ) 20'
 p637
-I0
+I1
 sS'195 /home/SySeVR/data/CVE_2011_1138_VULN_dissect_6lowpan_hc1.c nhdr_list -> reported = dgram_size - sizeof ( struct ip6_hdr ) 312'
 p638
-I0
+I1
 sS'405 /home/SySeVR/data/CVE_2013_0850_PATCHED_decode_slice_header.c id_list [ i ] = h -> short_ref_count + k 750'
 p639
 I0
 sS'731 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c Jpeg2000Prec * prec = band -> prec + precno ; 38'
 p640
-I0
+I1
 sS'691 /home/SySeVR/data/CVE_2015_3808_VULN_dissect_lbmr_pser.c hdr_len = ( int ) tvb_get_ntohs ( tvb , curr_offset + O_LBMR_PSER_T_LEN ) 11'
 p641
-I0
+I1
 sS'318 /home/SySeVR/data/CVE_2012_3969_VULN_nsSVGFEMorphologyElement__Filter.c extrema [ i ] = sourceData [ targIndex + i ] 37'
 p642
-I0
+I1
 sS'247 /home/SySeVR/data/CVE_2011_3363_PATCHED_cifs_mount.c tlink = kzalloc ( sizeof * tlink , GFP_KERNEL ) 213'
 p643
 I0
@@ -1936,7 +1936,7 @@ p645
 I0
 sS'58 /home/SySeVR/data/CVE_2008_5134_VULN_lbs_process_bss.c p = bss -> rates + n_basic_rates 170'
 p646
-I0
+I1
 sS'774 /home/SySeVR/data/CVE_2012_1183_PATCHED_milliwatt_generate.c const int maxsamples = ARRAY_LEN ( buf ) - ( AST_FRIENDLY_OFFSET / sizeof ( buf [ 0 ] ) ) ; 4'
 p647
 I0
@@ -1945,7 +1945,7 @@ p648
 I0
 sS'8 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c x = tile -> comp [ compno ] . coord [ 0 ] [ 0 ] - s -> image_offset_x / s -> cdx [ compno ] 97'
 p649
-I0
+I1
 sS'212 /home/SySeVR/data/CVE_2011_2689_PATCHED_gfs2_fallocate.c len = next - offset 21'
 p650
 I0
@@ -1960,13 +1960,13 @@ p653
 I0
 sS'254 /home/SySeVR/data/CVE_2011_3648_VULN_nsShiftJISToUnicode__Convert.c * aDestLen = dest - aDest 152'
 p654
-I0
+I1
 sS'521 /home/SySeVR/data/CVE_2013_4470_PATCHED_ip_ufo_append_data.c skb_shinfo ( skb ) -> gso_size = maxfraglen - fragheaderlen 45'
 p655
 I0
 sS'800 /home/SySeVR/data/CVE_2013_0772_VULN_nsGIFDecoder2__OutputRow.c uint8_t * rowp = mImageData + ( mGIFStruct . irow * bpr ) ; 40'
 p656
-I0
+I1
 sS'615 /home/SySeVR/data/CVE_2014_2889_PATCHED_bpf_jit_compile.c addrs = kmalloc ( flen * sizeof ( * addrs ) , GFP_KERNEL ) 20'
 p657
 I0
@@ -1975,19 +1975,19 @@ p658
 I0
 sS'456 /home/SySeVR/data/CVE_2013_1576_VULN_dissect_sdp_media_attribute.c tokenlen = next_offset - offset 74'
 p659
-I0
+I1
 sS'789 /home/SySeVR/data/CVE_2012_3969_VULN_nsSVGFEMorphologyElement__Filter.c PRUint32 startY = NS_MAX ( 0 , y - ry ) ; 26'
 p660
-I0
+I1
 sS'933 /home/SySeVR/data/CVE_2014_8709_PATCHED_ieee80211_fragment.c int per_fragm = frag_threshold - hdrlen - FCS_LEN ; 8'
 p661
 I0
 sS'557 /home/SySeVR/data/CVE_2013_7011_VULN_read_header.c fs -> slice_width = ( get_symbol ( c , state , 0 ) + 1 ) * f -> width + fs -> slice_x 150'
 p662
-I0
+I1
 sS'525 /home/SySeVR/data/CVE_2013_4470_VULN_ip6_ufo_append_data.c skb -> transport_header = skb -> network_header + fragheaderlen 35'
 p663
-I0
+I1
 sS'140 /home/SySeVR/data/CVE_2010_3429_PATCHED_flic_decode_frame_15_16BPP.c stream_ptr = stream_ptr + chunk_size - 6 63'
 p664
 I0
@@ -2029,7 +2029,7 @@ p676
 I0
 sS'62 /home/SySeVR/data/CVE_2009_0946_VULN_cff_charset_load.c charset -> offset = base_offset + offset 21'
 p677
-I0
+I1
 sS'617 /home/SySeVR/data/CVE_2014_3523_PATCHED_winnt_accept.c context -> sa_client = ( void * ) ( context -> buff + context -> sa_server_len ) 359'
 p678
 I0
@@ -2053,10 +2053,10 @@ p684
 I0
 sS'817 /home/SySeVR/data/CVE_2013_0868_VULN_generate_joint_tables.c int limit0 = VLC_BITS - len0 ; 39'
 p685
-I0
+I1
 sS'938 /home/SySeVR/data/CVE_2015_3395_VULN_msrle_decode_pal4.c int frame_size = row_dec * avctx -> height ; 10'
 p686
-I0
+I1
 sS'386 /home/SySeVR/data/CVE_2013_0782_PATCHED_nsSaveAsCharset__DoCharsetConversion.c dstLength = bufferLength - pos2 80'
 p687
 I0
@@ -2077,7 +2077,7 @@ p692
 I0
 sS'640 /home/SySeVR/data/CVE_2014_8546_VULN_cinepak_decode_vectors.c ip2 = ip1 + s -> frame -> linesize [ 0 ] 21'
 p693
-I0
+I1
 sS'911 /home/SySeVR/data/CVE_2014_5272_PATCHED_decode_frame.c uint8_t * row = & s -> frame . data [ 0 ] [ y * s -> frame . linesize [ 0 ] ] ; 46'
 p694
 I0
@@ -2098,13 +2098,13 @@ p699
 I0
 sS'792 /home/SySeVR/data/CVE_2013_0750_VULN_ReplaceRegExpCallback.c size_t growth = leftlen + replen ; 15'
 p700
-I0
+I1
 sS'618 /home/SySeVR/data/CVE_2014_3601_VULN_kvm_iommu_map_pages.c end_gfn = gfn + slot -> npages 14'
 p701
 I0
 sS'10 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c y = tile -> comp [ compno ] . coord [ 1 ] [ 0 ] - s -> image_offset_y / s -> cdy [ compno ] 92'
 p702
-I0
+I1
 sS'611 /home/SySeVR/data/CVE_2014_2282_VULN_dissect_protocol_data_parameter.c ulp_length = tvb_get_ntohs ( parameter_tvb , PARAMETER_LENGTH_OFFSET ) - PARAMETER_HEADER_LENGTH - DATA_HDR_LENGTH 54'
 p703
 I0
@@ -2116,7 +2116,7 @@ p705
 I0
 sS'837 /home/SySeVR/data/CVE_2013_2850_VULN_iscsi_decode_text_input.c char * tmpptr = key + strlen ( key ) ; 35'
 p706
-I0
+I1
 sS'502 /home/SySeVR/data/CVE_2013_3559_VULN_dissect_pft_fec_detailed.c got = ep_alloc ( fcount * sizeof ( guint32 ) ) 45'
 p707
 I0
@@ -2128,10 +2128,10 @@ p709
 I0
 sS'440 /home/SySeVR/data/CVE_2013_0868_VULN_generate_joint_tables.c len [ i ] = len0 + len1 18'
 p710
-I0
+I1
 sS'887 /home/SySeVR/data/CVE_2014_1508_VULN_nsDisplayNotation__Paint.c gfxFloat f = gfxFloat ( kArrowHeadSize ) * e / l ; 50'
 p711
-I0
+I1
 sS'292 /home/SySeVR/data/CVE_2012_1183_VULN_milliwatt_generate.c wf . data . ptr = buf + AST_FRIENDLY_OFFSET 12'
 p712
 I0
@@ -2158,13 +2158,13 @@ p719
 I0
 sS'515 /home/SySeVR/data/CVE_2013_4163_VULN_ip6_append_data_mtu.c * mtu = * mtu - rt -> dst . header_len 10'
 p720
-I0
+I1
 sS'235 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c x -> cp = gData -> cpbegin + curState -> index 226'
 p721
-I0
+I1
 sS'183 /home/SySeVR/data/CVE_2011_1010_VULN_mac_partition.c part = ( struct CVE_2011_1010_VULN_mac_partition * ) ( data + pos % 512 ) 41'
 p722
-I0
+I1
 sS'681 /home/SySeVR/data/CVE_2015_3331_PATCHED___driver_rfc4106_decrypt.c src = kmalloc ( req -> cryptlen + req -> assoclen , GFP_ATOMIC ) 49'
 p723
 I0
@@ -2176,13 +2176,13 @@ p725
 I0
 sS'548 /home/SySeVR/data/CVE_2013_6381_VULN_qeth_snmp_command.c cmd = ( struct qeth_ipa_cmd * ) ( iob -> data + IPA_PDU_HEADER_SIZE ) 37'
 p726
-I0
+I1
 sS'747 /home/SySeVR/data/CVE_2009_1385_PATCHED_e1000_clean_rx_irq.c struct sk_buff * new_skb = netdev_alloc_skb ( netdev , length + NET_IP_ALIGN ) ; 90'
 p727
 I0
 sS'30 /home/SySeVR/data/CVE_2006_5751_VULN_get_fdb_entries.c maxnum = PAGE_SIZE / sizeof ( struct __fdb_entry ) 10'
 p728
-I0
+I1
 sS'902 /home/SySeVR/data/CVE_2014_5272_PATCHED_decode_frame.c uint8_t * row = & s -> frame . data [ 0 ] [ y * s -> frame . linesize [ 0 ] ] ; 132'
 p729
 I0
@@ -2200,7 +2200,7 @@ p733
 I0
 sS'871 /home/SySeVR/data/CVE_2013_7023_VULN_ff_combine_frame.c void * new_buffer = av_fast_realloc ( pc -> buffer , & pc -> buffer_size , next + pc -> index + FF_INPUT_BUFFER_PADDING_SIZE ) ; 38'
 p734
-I0
+I1
 sS'465 /home/SySeVR/data/CVE_2013_1588_PATCHED_dissect_pft_fec_detailed.c decoded_size = fcount * plen 25'
 p735
 I0
@@ -2212,7 +2212,7 @@ p737
 I0
 sS'936 /home/SySeVR/data/CVE_2014_8709_VULN_ieee80211_fragment.c int per_fragm = frag_threshold - hdrlen - FCS_LEN ; 8'
 p738
-I0
+I1
 sS'385 /home/SySeVR/data/CVE_2013_0772_VULN_nsGIFDecoder2__OutputRow.c drow_end = drow_start + row_dup 25'
 p739
 I0
@@ -2227,7 +2227,7 @@ p742
 I0
 sS'552 /home/SySeVR/data/CVE_2013_7009_VULN_rpza_decode_stream.c block_ptr = row_ptr + pixel_ptr 120'
 p743
-I0
+I1
 sS'422 /home/SySeVR/data/CVE_2013_0864_PATCHED_gif_copy_img_rect.c src_px = src_py + l 12'
 p744
 I0
@@ -2239,7 +2239,7 @@ p746
 I0
 sS'833 /home/SySeVR/data/CVE_2013_1693_VULN_nsSVGFEMorphologyElement__Filter.c PRUint32 endY = NS_MIN ( y + ry , instance -> GetSurfaceHeight ( ) - 1 ) ; 37'
 p747
-I0
+I1
 sS'544 /home/SySeVR/data/CVE_2013_6381_PATCHED_qeth_snmp_command.c cmd = ( struct qeth_ipa_cmd * ) ( iob -> data + IPA_PDU_HEADER_SIZE ) 41'
 p748
 I0
@@ -2254,13 +2254,13 @@ p751
 I0
 sS'343 /home/SySeVR/data/CVE_2012_4298_VULN_vwr_read_rec_data_ethernet.c delta_b = sig_ts - s_time 125'
 p752
-I0
+I1
 sS'438 /home/SySeVR/data/CVE_2013_0868_VULN_generate_joint_tables.c map [ i ] [ B ] = g + b 56'
 p753
-I0
+I1
 sS'664 /home/SySeVR/data/CVE_2014_9679_VULN_cupsRasterReadPixels.c r -> pcurrent = r -> pixels + bytes 163'
 p754
-I0
+I1
 sS'25 /home/SySeVR/data/CVE_2006_4813_PATCHED___block_prepare_write.c block_end = block_start + blocksize 98'
 p755
 I0
@@ -2275,7 +2275,7 @@ p758
 I0
 sS'787 /home/SySeVR/data/CVE_2012_3969_VULN_nsSVGFEMorphologyElement__Filter.c PRUint32 startX = NS_MAX ( 0 , x - rx ) ; 32'
 p759
-I0
+I1
 sS'309 /home/SySeVR/data/CVE_2012_2790_VULN_read_var_block_data.c current_res = bd -> raw_samples + start 232'
 p760
 I0
@@ -2284,37 +2284,37 @@ p761
 I0
 sS'401 /home/SySeVR/data/CVE_2013_0844_VULN_adpcm_decode_frame.c diff_channel = ( diff_channel + c -> status [ 1 ] . predictor ) / 2 252'
 p762
-I0
+I1
 sS'239 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c nextpc = pc + GET_OFFSET ( pc ) 178'
 p763
-I0
+I1
 sS'412 /home/SySeVR/data/CVE_2013_0850_VULN_decode_slice_header.c s -> resync_mb_y = s -> mb_y = ( first_mb_in_slice / s -> mb_width ) << FIELD_OR_MBAFF_PICTURE 517'
 p764
-I0
+I1
 sS'630 /home/SySeVR/data/CVE_2014_7825_PATCHED_perf_syscall_enter.c size = ALIGN ( size + sizeof ( u32 ) , sizeof ( u64 ) ) 26'
 p765
 I0
 sS'832 /home/SySeVR/data/CVE_2013_1693_VULN_nsSVGFEMorphologyElement__Filter.c PRUint32 startX = NS_MAX ( 0 , x - rx ) ; 39'
 p766
-I0
+I1
 sS'162 /home/SySeVR/data/CVE_2010_3904_VULN_rds_page_copy_user.c ret = copy_from_user ( addr + offset , ptr , bytes ) 25'
 p767
-I0
+I1
 sS'897 /home/SySeVR/data/CVE_2014_4608_VULN_lzo1x_decompress_safe.c const unsigned char * ie = ip + t ; 42'
 p768
-I0
+I1
 sS'564 /home/SySeVR/data/CVE_2013_7013_VULN_g2m_init_buffers.c c -> kempf_buf = av_mallocz ( ( c -> tile_width + 1 ) * aligned_height + FF_INPUT_BUFFER_PADDING_SIZE ) 24'
 p769
-I0
+I1
 sS'607 /home/SySeVR/data/CVE_2014_0160_VULN_tls1_process_heartbeat.c buffer = OPENSSL_malloc ( 1 + 2 + payload + padding ) 28'
 p770
-I0
+I1
 sS'96 /home/SySeVR/data/CVE_2009_4138_PATCHED_ohci_queue_iso_receive_packet_per_buffer.c z = DIV_ROUND_UP ( payload_per_buffer + offset , PAGE_SIZE ) + 1 29'
 p771
 I0
 sS'733 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c Jpeg2000ResLevel * rlevel = comp -> reslevel + reslevelno ; 22'
 p772
-I0
+I1
 sS'751 /home/SySeVR/data/CVE_2009_4410_VULN_fuse_ioctl_copy_user.c size_t iov_len = ii . iov -> iov_len - ii . iov_offset ; 21'
 p773
 I0
@@ -2323,10 +2323,10 @@ p774
 I0
 sS'21 /home/SySeVR/data/CVE-2016-8658_VULN_brcmf_cfg80211_start_ap.c ie_offset = DOT11_MGMT_HDR_LEN + DOT11_BCN_PRB_FIXED_LEN 39'
 p775
-I0
+I1
 sS'831 /home/SySeVR/data/CVE_2013_1693_VULN_nsSVGFEMorphologyElement__Filter.c PRUint32 endX = NS_MIN ( x + rx , instance -> GetSurfaceWidth ( ) - 1 ) ; 40'
 p776
-I0
+I1
 sS'671 /home/SySeVR/data/CVE_2015_0833_PATCHED_NS_main.c NS_tsnprintf ( updateLockFilePath , sizeof ( updateLockFilePath ) / sizeof ( updateLockFilePath [ 0 ] ) , NS_T ( "%s.update_in_progress.lock" ) , argv [ callbackIndex ] ) 269'
 p777
 I0
@@ -2335,13 +2335,13 @@ p778
 I0
 sS'404 /home/SySeVR/data/CVE_2013_0844_VULN_adpcm_decode_frame.c diff_channel = ( diff_channel + c -> status [ 1 ] . predictor ) / 2 243'
 p779
-I0
+I1
 sS'584 /home/SySeVR/data/CVE_2013_7022_PATCHED_g2m_init_buffers.c c -> jpeg_tile = av_mallocz ( c -> tile_stride * aligned_height ) 23'
 p780
 I0
 sS'41 /home/SySeVR/data/CVE_2007_3642_VULN_decode_seq.c bs -> cur = beg + len 53'
 p781
-I0
+I1
 sS'504 /home/SySeVR/data/CVE_2013_3559_VULN_dissect_pft_fec_detailed.c c_max = fcount * plen / ( rsk + PFT_RS_P ) 26'
 p782
 I0
@@ -2356,10 +2356,10 @@ p785
 I0
 sS'621 /home/SySeVR/data/CVE_2014_4608_VULN_lzo1x_decompress_safe.c * out_len = op - out 201'
 p786
-I0
+I1
 sS'760 /home/SySeVR/data/CVE_2011_0021_VULN_DecodeScroll.c int dy = i_shiftv + y ; 49'
 p787
-I0
+I1
 sS'840 /home/SySeVR/data/CVE_2013_4153_PATCHED_qemuAgentGetVCPUs.c qemuAgentCPUInfoPtr in = * info + i ; 41'
 p788
 I0
@@ -2371,7 +2371,7 @@ p790
 I0
 sS'7 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c dst = line + x * pixelsize + compno * ! planar 98'
 p791
-I0
+I1
 sS'692 /home/SySeVR/data/CVE_2015_3809_PATCHED_dissect_lbmr_pser.c opt_len = tvb_get_ntohs ( tvb , curr_offset + O_LBMR_PSER_OPTLEN_T_OPTLEN ) 36'
 p792
 I0
@@ -2386,25 +2386,25 @@ p795
 I0
 sS'373 /home/SySeVR/data/CVE_2013_0311_VULN_translate_desc.c _iov = iov + ret 24'
 p796
-I0
+I1
 sS'719 /home/SySeVR/data/CVE_2015_6246_PATCHED_dissect_wa_payload.c current_offset = offset + iLoop * delta 494'
 p797
 I0
 sS'447 /home/SySeVR/data/CVE_2013_1576_VULN_dissect_sdp_media_attribute.c tokenlen = next_offset - offset 376'
 p798
-I0
+I1
 sS'436 /home/SySeVR/data/CVE_2013_0868_PATCHED_generate_joint_tables.c len [ i ] = len0 + len1 19'
 p799
 I0
 sS'146 /home/SySeVR/data/CVE_2010_3429_VULN_flic_decode_frame_15_16BPP.c stream_ptr = stream_ptr + chunk_size - 6 113'
 p800
-I0
+I1
 sS'102 /home/SySeVR/data/CVE_2009_4138_VULN_ohci_queue_iso_receive_packet_per_buffer.c pd = d + j 46'
 p801
-I0
+I1
 sS'769 /home/SySeVR/data/CVE_2011_3648_VULN_nsShiftJISToUnicode__Convert.c PRUnichar ch = gJapaneseMap [ mData + off ] ; 115'
 p802
-I0
+I1
 sS'826 /home/SySeVR/data/CVE_2013_1681_PATCHED_nsContentUtils__RemoveScriptBlocker.c uint32_t blockersCount = lastBlocker - firstBlocker ; 14'
 p803
 I0
@@ -2425,7 +2425,7 @@ p808
 I0
 sS'458 /home/SySeVR/data/CVE_2013_1576_VULN_dissect_sdp_media_attribute.c tokenlen = colon_offset - offset 31'
 p809
-I0
+I1
 sS'923 /home/SySeVR/data/CVE_2014_6432_VULN_SnifferDecompress.c unsigned char * pout_end = pout + outlen ; 8'
 p810
 I0
@@ -2434,7 +2434,7 @@ p811
 I0
 sS'591 /home/SySeVR/data/CVE_2013_7022_VULN_g2m_init_buffers.c c -> framebuf = av_mallocz ( c -> framebuf_stride * aligned_height ) 9'
 p812
-I0
+I1
 sS'600 /home/SySeVR/data/CVE_2013_7027_PATCHED_ieee80211_radiotap_iterator_init.c iterator -> _arg = ( uint8_t * ) radiotap_header + sizeof ( * radiotap_header ) 22'
 p813
 I0
@@ -2455,22 +2455,22 @@ p818
 I0
 sS'42 /home/SySeVR/data/CVE_2007_3642_VULN_decode_seq.c base = ( base && ( f -> attr & DECODE ) ) ? base + f -> offset : NULL 11'
 p819
-I0
+I1
 sS'494 /home/SySeVR/data/CVE_2013_2486_PATCHED_dissect_diagnosticrequest.c local_length = length - local_offset 27'
 p820
 I0
 sS'785 /home/SySeVR/data/CVE_2012_3969_VULN_nsSVGFEMorphologyElement__Filter.c PRUint32 targIndex = y * stride + 4 * x ; 34'
 p821
-I0
+I1
 sS'746 /home/SySeVR/data/CVE_2009_0946_VULN_ft_smooth_render_generic.c FT_Vector * points_end = points + outline -> n_points ; 126'
 p822
 I0
 sS'400 /home/SySeVR/data/CVE_2013_0844_VULN_adpcm_decode_frame.c * samples ++ = c -> status [ 0 ] . predictor + c -> status [ 1 ] . predictor 253'
 p823
-I0
+I1
 sS'99 /home/SySeVR/data/CVE_2009_4138_VULN_ohci_queue_iso_receive_packet_per_buffer.c offset = ( offset + length ) & ~PAGE_MASK 61'
 p824
-I0
+I1
 sS'881 /home/SySeVR/data/CVE_2013_7024_PATCHED_jpeg2000_decode_tile.c Jpeg2000CodingStyle * codsty = tile -> codsty + compno ; 13'
 p825
 I0
@@ -2482,13 +2482,13 @@ p827
 I0
 sS'152 /home/SySeVR/data/CVE_2010_3848_VULN_econet_sendmsg.c skb = sock_alloc_send_skb ( sk , len + LL_ALLOCATED_SPACE ( dev ) , msg -> msg_flags & MSG_DONTWAIT , & err ) 81'
 p828
-I0
+I1
 sS'349 /home/SySeVR/data/CVE_2012_4298_VULN_vwr_read_rec_data_ethernet.c d_time = ( guint32 ) ( ( e_time - s_time ) ) 81'
 p829
 I0
 sS'246 /home/SySeVR/data/CVE_2011_3362_VULN_decode_residual_block.c run = ( ( level_code - ESCAPE_CODE ) >> 1 ) + 1 12'
 p830
-I0
+I1
 sS'337 /home/SySeVR/data/CVE_2012_4298_PATCHED_vwr_read_rec_data_ethernet.c s_sec = ( start_time / US_IN_SEC ) 85'
 p831
 I0
@@ -2503,7 +2503,7 @@ p834
 I0
 sS'553 /home/SySeVR/data/CVE_2013_7009_VULN_rpza_decode_stream.c block_ptr = row_ptr + pixel_ptr 73'
 p835
-I0
+I1
 sS'809 /home/SySeVR/data/CVE_2013_0851_VULN_decode_frame.c const uint8_t * buf_end = buf + buf_size ; 7'
 p836
 I0
@@ -2521,34 +2521,34 @@ p840
 I0
 sS'288 /home/SySeVR/data/CVE_2012_0477_VULN_nsISO2022KRToUnicode__Convert.c * aDestLen = dest - aDest 170'
 p841
-I0
+I1
 sS'818 /home/SySeVR/data/CVE_2013_0868_VULN_generate_joint_tables.c int limit = VLC_BITS - len0 ; 11'
 p842
-I0
+I1
 sS'762 /home/SySeVR/data/CVE_2011_1010_VULN_mac_partition.c int pos = blk * secsize ; 36'
 p843
-I0
+I1
 sS'224 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c pc = pc + GET_OFFSET ( pc ) 401'
 p844
-I0
+I1
 sS'9 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c line = picture -> data [ plane ] + y * picture -> linesize [ plane ] 93'
 p845
-I0
+I1
 sS'237 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c nextpc = pc + GET_OFFSET ( pc ) 200'
 p846
-I0
+I1
 sS'193 /home/SySeVR/data/CVE_2011_1138_PATCHED_dissect_6lowpan_iphc.c nhdr_list -> reported = dgram_size - sizeof ( struct ip6_hdr ) 368'
 p847
 I0
 sS'187 /home/SySeVR/data/CVE_2011_1044_VULN_ib_uverbs_poll_cq.c wc = kmalloc ( cmd . ne * sizeof * wc , GFP_KERNEL ) 16'
 p848
-I0
+I1
 sS'383 /home/SySeVR/data/CVE_2013_0772_VULN_nsGIFDecoder2__DoLzw.c rowend = rowp + mGIFStruct . width 36'
 p849
 I0
 sS'609 /home/SySeVR/data/CVE_2014_1522_VULN_ComputeCustom.c aOutput [ i ] = tableInterpolationFactor * lower + ( 1 - tableInterpolationFactor ) * higher 36'
 p850
-I0
+I1
 sS'698 /home/SySeVR/data/CVE_2015_3811_PATCHED_wcp_uncompress.c cd_item = proto_tree_add_item ( tree , hf_wcp_compressed_data , src_tvb , offset , cnt - offset , ENC_NA ) 23'
 p851
 I0
@@ -2557,25 +2557,25 @@ p852
 I0
 sS'1 /home/SySeVR/data/CVE-2015-1872_VULN_ff_mjpeg_decode_sof.c s -> block_stride [ i ] = bw * s -> h_count [ i ] 371'
 p853
-I0
+I1
 sS'531 /home/SySeVR/data/CVE_2013_4932_PATCHED_elem_lv.c item = proto_tree_add_text ( tree , tvb , curr_offset , parm_len + 1 , "%s%s" , elem_name ? elem_name : "Unknown - aborting dissection" , ( name_add == NULL ) || ( name_add [ 0 ] == \'\\0\' ) ? "" : name_add ) 23'
 p854
 I0
 sS'47 /home/SySeVR/data/CVE_2008_1390_VULN_generic_http_callback.c c = retval + strlen ( retval ) 107'
 p855
-I0
+I1
 sS'428 /home/SySeVR/data/CVE_2013_0867_VULN_decode_slice_header.c id_list [ i ] = h -> short_ref_count + k 650'
 p856
 I0
 sS'563 /home/SySeVR/data/CVE_2013_7013_VULN_g2m_init_buffers.c c -> kempf_flags = av_mallocz ( c -> tile_width * aligned_height ) 26'
 p857
-I0
+I1
 sS'20 /home/SySeVR/data/CVE-2016-8658_VULN_brcmf_cfg80211_start_ap.c ssid_ie = brcmf_parse_tlvs ( ( u8 * ) & settings -> beacon . head [ ie_offset ] , settings -> beacon . head_len - ie_offset , WLAN_EID_SSID ) 40'
 p858
-I0
+I1
 sS'417 /home/SySeVR/data/CVE_2013_0859_VULN_add_doubles_metadata.c dp = av_malloc ( count * sizeof ( double ) ) 14'
 p859
-I0
+I1
 sS'44 /home/SySeVR/data/CVE_2008_0420_PATCHED_nsBMPDecoder__ProcessData.c mStateData = ( PRUint32 ) ( mAlpha + mBIH . width - mAlphaPtr ) 280'
 p860
 I0
@@ -2590,7 +2590,7 @@ p863
 I0
 sS'12 /home/SySeVR/data/CVE-2016-2327_VULN_apng_encode_frame.c s -> bytestream = original_bytestream + best_bytestream_size 111'
 p864
-I0
+I1
 sS'158 /home/SySeVR/data/CVE_2010_3859_VULN_tipc_msg_build.c sz = hsz + dsz 14'
 p865
 I0
@@ -2614,10 +2614,10 @@ p871
 I0
 sS'23 /home/SySeVR/data/CVE_2005_4886_VULN_selinux_parse_skb_ipv6.c offset = ipv6_skip_exthdr ( skb , offset , & nexthdr , skb -> tail - skb -> head - offset ) 18'
 p872
-I0
+I1
 sS'738 /home/SySeVR/data/CVE_2006_5751_VULN_get_fdb_entries.c size_t size = maxnum * sizeof ( struct __fdb_entry ) ; 6'
 p873
-I0
+I1
 sS'299 /home/SySeVR/data/CVE_2012_2375_VULN___nfs4_get_acl_uncached.c acl_len = res . acl_len - res . acl_data_offset 52'
 p874
 I0
@@ -2644,13 +2644,13 @@ p881
 I0
 sS'148 /home/SySeVR/data/CVE_2010_3429_VULN_flic_decode_frame_15_16BPP.c pixel_limit = s -> avctx -> height * s -> frame . linesize [ 0 ] 40'
 p882
-I0
+I1
 sS'360 /home/SySeVR/data/CVE_2012_5669_PATCHED__bdf_parse_glyphs.c mask_index = ( glyph -> bbx . width * p -> font -> bpp ) & 7 309'
 p883
 I0
 sS'657 /home/SySeVR/data/CVE_2014_9658_VULN_tt_face_load_kern.c num_pairs = ( FT_UInt ) ( ( p_next - p ) / 6 ) 76'
 p884
-I0
+I1
 sS'333 /home/SySeVR/data/CVE_2012_4298_PATCHED_vwr_read_rec_data_ethernet.c delta_b = sig_ts - s_time 125'
 p885
 I0
@@ -2662,7 +2662,7 @@ p887
 I0
 sS'735 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c Jpeg2000Component * comp = tile -> comp + compno ; 15'
 p888
-I0
+I1
 sS'585 /home/SySeVR/data/CVE_2013_7022_PATCHED_g2m_init_buffers.c c -> synth_tile = av_mallocz ( c -> tile_stride * aligned_height ) 22'
 p889
 I0
@@ -2674,16 +2674,16 @@ p891
 I0
 sS'761 /home/SySeVR/data/CVE_2011_0021_VULN_DecodeTileBlock.c uint8_t * p = & p_cdg -> p_screen [ ( sy + y ) * CDG_SCREEN_PITCH + ( sx + x ) ] ; 18'
 p892
-I0
+I1
 sS'709 /home/SySeVR/data/CVE_2015_3813_PATCHED_fragment_add_work.c fd_head -> datalen = fd -> offset + fd -> len 121'
 p893
 I0
 sS'223 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c curState -> index = x -> cp - gData -> cpbegin 414'
 p894
-I0
+I1
 sS'567 /home/SySeVR/data/CVE_2013_7013_VULN_g2m_init_buffers.c c -> framebuf = av_mallocz ( c -> framebuf_stride * aligned_height ) 9'
 p895
-I0
+I1
 sS'777 /home/SySeVR/data/CVE_2012_3377_VULN_Ogg_DecodePacket.c uint64_t u_pnum = dts + delay ; 242'
 p896
 I0
@@ -2713,7 +2713,7 @@ p904
 I0
 sS'236 /home/SySeVR/data/CVE_2011_2998_VULN_ExecuteREBytecode.c curState -> index = x -> cp - gData -> cpbegin 214'
 p905
-I0
+I1
 sS'11 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c nb_precincts = rlevel -> num_precincts_x * rlevel -> num_precincts_y 35'
 p906
 I0
@@ -2722,7 +2722,7 @@ p907
 I0
 sS'287 /home/SySeVR/data/CVE_2012_0477_VULN_nsISO2022KRToUnicode__Convert.c * aDestLen = dest - aDest 174'
 p908
-I0
+I1
 sS'315 /home/SySeVR/data/CVE_2012_2797_PATCHED_decode_frame_mp3on4.c s -> frame -> nb_samples = s -> frames * MPA_FRAME_SIZE 15'
 p909
 I0
@@ -2731,25 +2731,25 @@ p910
 I0
 sS'590 /home/SySeVR/data/CVE_2013_7022_VULN_g2m_init_buffers.c c -> synth_tile = av_mallocz ( c -> tile_stride * aligned_height ) 22'
 p911
-I0
+I1
 sS'418 /home/SySeVR/data/CVE_2013_0862_VULN_process_frame_obj.c ctx -> avctx -> height = FFMAX ( top + h , ctx -> height ) 13'
 p912
-I0
+I1
 sS'180 /home/SySeVR/data/CVE_2011_0021_VULN_DecodeScroll.c dy = ( dy + CDG_SCREEN_HEIGHT ) % CDG_SCREEN_HEIGHT 56'
 p913
-I0
+I1
 sS'885 /home/SySeVR/data/CVE_2014_1508_VULN_nsDisplayNotation__Paint.c gfxFloat h = H * f ; 51'
 p914
-I0
+I1
 sS'387 /home/SySeVR/data/CVE_2013_0782_PATCHED_nsSaveAsCharset__DoCharsetConversion.c rv = mEncoder -> GetMaxLength ( inString + pos1 , inStringLength - pos1 , & dstLength ) 67'
 p915
 I0
 sS'805 /home/SySeVR/data/CVE_2013_0844_VULN_adpcm_decode_frame.c int16_t * smp = samples + channel ; 295'
 p916
-I0
+I1
 sS'377 /home/SySeVR/data/CVE_2013_0771_VULN_nsTextFrame__ReflowText.c lastBreak = end . ConvertSkippedToOriginal ( transformedOffset + transformedLastBreak ) 309'
 p917
-I0
+I1
 sS'612 /home/SySeVR/data/CVE_2014_2282_VULN_dissect_protocol_data_parameter.c ulp_length = tvb_get_ntohs ( parameter_tvb , PARAMETER_LENGTH_OFFSET ) - PARAMETER_HEADER_LENGTH - DATA_HDR_LENGTH 14'
 p918
 I0
@@ -2758,19 +2758,19 @@ p919
 I0
 sS'133 /home/SySeVR/data/CVE_2010_2962_VULN_i915_gem_gtt_pwrite_fast.c offset = obj_priv -> gtt_offset + args -> offset 31'
 p920
-I0
+I1
 sS'836 /home/SySeVR/data/CVE_2013_2486_PATCHED_dissect_diagnosticrequest.c int local_increment = dissect_diagnosticextension ( tvb , pinfo , extensions_tree , offset + 4 + local_offset + extensions_offset , extensions_length - extensions_offset ) ; 46'
 p921
 I0
 sS'565 /home/SySeVR/data/CVE_2013_7013_VULN_g2m_init_buffers.c c -> jpeg_tile = av_mallocz ( c -> tile_stride * aligned_height ) 23'
 p922
-I0
+I1
 sS'342 /home/SySeVR/data/CVE_2012_4298_VULN_vwr_read_rec_data_ethernet.c e_hdr_len = STATS_COMMON_FIELDS_LEN + STATS_ETHERNETTAP_FIELDS_LEN 138'
 p923
 I0
 sS'723 /home/SySeVR/data/CVE-2015-1872_VULN_ff_mjpeg_decode_sof.c int size = bw * bh * s -> h_count [ i ] * s -> v_count [ i ] ; 364'
 p924
-I0
+I1
 sS'633 /home/SySeVR/data/CVE_2014_7937_PATCHED_vorbis_residue_decode_internal.c voffs = voffset + j * vlen 75'
 p925
 I0
@@ -2788,13 +2788,13 @@ p929
 I0
 sS'732 /home/SySeVR/data/CVE-2016-2213_VULN_jpeg2000_decode_tile.c Jpeg2000Band * band = rlevel -> band + bandno ; 26'
 p930
-I0
+I1
 sS'869 /home/SySeVR/data/CVE_2013_7017_VULN_ff_jpeg2000_init_component.c Jpeg2000ResLevel * reslevel = comp -> reslevel + reslevelno ; 41'
 p931
-I0
+I1
 sS'542 /home/SySeVR/data/CVE_2013_6380_VULN_aac_send_raw_srb.c user_reply = arg + fibsize 66'
 p932
-I0
+I1
 sS'608 /home/SySeVR/data/CVE_2014_1497_VULN_WaveReader__LoadFormatChunk.c static_assert ( UINT16_MAX + ( UINT16_MAX % 2 ) < UINT_MAX / sizeof ( char ) , "chunkExtension array too large for iterator." ) 61'
 p933
 I0
@@ -2803,16 +2803,16 @@ p934
 I0
 sS'323 /home/SySeVR/data/CVE_2012_4287_VULN_dissect_bson_document.c final_offset = offset + document_length 22'
 p935
-I0
+I1
 sS'637 /home/SySeVR/data/CVE_2014_8545_VULN_decode_frame.c s -> row_size = ( avctx -> width * s -> bits_per_pixel + 7 ) >> 3 109'
 p936
-I0
+I1
 sS'91 /home/SySeVR/data/CVE_2009_4138_PATCHED_ohci_queue_iso_receive_packet_per_buffer.c offset = ( offset + length ) & ~PAGE_MASK 62'
 p937
 I0
 sS'298 /home/SySeVR/data/CVE_2012_2100_VULN_ext4_fill_flex_info.c flex_group_count = ( ( sbi -> s_groups_count + groups_per_flex - 1 ) + ( ( le16_to_cpu ( sbi -> s_es -> s_reserved_gdt_blocks ) + 1 ) << EXT4_DESC_PER_BLOCK_BITS ( sb ) ) ) / groups_per_flex 20'
 p938
-I0
+I1
 sS'754 /home/SySeVR/data/CVE_2010_2500_PATCHED_gray_render_span.c unsigned char * q = p + spans -> x ; 31'
 p939
 I0
@@ -2821,7 +2821,7 @@ p940
 I0
 sS'886 /home/SySeVR/data/CVE_2014_1508_VULN_nsDisplayNotation__Paint.c gfxFloat w = W * f ; 51'
 p941
-I0
+I1
 sS'537 /home/SySeVR/data/CVE_2013_5642_VULN_process_sdp.c codecs = m + len 189'
 p942
 I0
@@ -2830,8 +2830,8 @@ p943
 I0
 sS'200 /home/SySeVR/data/CVE_2011_1495_VULN__ctl_diag_read_buffer.c timeleft = wait_for_completion_timeout ( & ioc -> ctl_cmds . done , MPT2_IOCTL_DEFAULT_TIMEOUT * HZ ) 122'
 p944
-I0
+I1
 sS'524 /home/SySeVR/data/CVE_2013_4470_VULN_ip6_ufo_append_data.c skb_shinfo ( skb ) -> gso_size = ( mtu - fragheaderlen - sizeof ( struct frag_hdr ) ) & ~7 44'
 p945
-I0
+I1
 s.

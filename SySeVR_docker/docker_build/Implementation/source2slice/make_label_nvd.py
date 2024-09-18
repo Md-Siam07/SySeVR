@@ -18,6 +18,8 @@ def make_label(data_path,label_path,_dict):
 			del slicelists[0]
 		if slicelists[-1] == '' or slicelists[-1] == '\n' or slicelists[-1] == '\r\n':
 			del slicelists[-1]
+		
+		cnt=0
     
 		for slice in slicelists:
 			sentences = slice.split('\n')
@@ -32,10 +34,12 @@ def make_label(data_path,label_path,_dict):
         
 			slicename = sentences[0]
 			label = 0
-			key = './' + ('/').join(slicename.split(' ')[1].split('/')[-4:])  #key in label_source
+			key = '/' + ('/').join(slicename.split(' ')[1].split('/')[-4:])  #key in label_source
+			print key
 			if key not in _dict.keys():
 				_labels[slicename] = 0
 				continue
+			print 'key found'
 			if len(_dict[key]) == 0:
 				_labels[slicename] = 0
 				continue
@@ -50,7 +54,13 @@ def make_label(data_path,label_path,_dict):
 					_labels[slicename] = 1
 					break 
 			if label == 0:
-				_labels[slicename] = 0	
+				_labels[slicename] = 0
+				#print 'negative'	
+			
+			if _labels[slicename] == 1:
+				cnt+=1
+			
+		print cnt
 	
 		with open(labelpath,'wb') as f1:
 			pickle.dump(_labels,f1)
@@ -74,11 +84,12 @@ def is_number(s):
 	
 if __name__ == '__main__':
 
-	""" with open('./vul_context_linux_kernel.pkl','rb') as f:
+	with open('./vul_context_func.pkl','rb') as f:
 		_dict = pickle.load(f)
-	f.close() """
+	f.close()
+	
 	#print(_dict)
-	_dict = {}
+	
 
 	code_path = './C/test_data/4/'  #slice code of software
 	label_path = './C/label_source/linux_kernel/'   #labels

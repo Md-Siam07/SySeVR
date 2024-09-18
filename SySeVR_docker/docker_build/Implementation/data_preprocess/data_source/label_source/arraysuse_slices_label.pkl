@@ -10,7 +10,7 @@ p3
 I0
 sS"74 /home/SySeVR/data/CVE_2012_1184_VULN_ast_parse_digest.c [u'c', u'val', u'key'] 4"
 p4
-I0
+I1
 sS"246 /home/SySeVR/data/CVE_2014_8714_PATCHED_dissect_write_structured_field.c [u'wts_cld_byte1'] 184"
 p5
 I0
@@ -40,19 +40,19 @@ p13
 I0
 sS"196 /home/SySeVR/data/CVE_2013_4928_VULN_dissect_headers.c [u'key'] 116"
 p14
-I0
+I1
 sS"101 /home/SySeVR/data/CVE_2012_4186_PATCHED_nsWaveReader__LoadFormatChunk.c [u'extLength'] 49"
 p15
 I0
 sS"220 /home/SySeVR/data/CVE_2014_1497_VULN_WaveReader__LoadFormatChunk.c [u'waveFormat'] 5"
 p16
-I0
+I1
 sS"265 /home/SySeVR/data/CVE_2014_8714_PATCHED_dissect_write_structured_field.c [u'qss_byte2'] 21"
 p17
 I0
 sS"21 /home/SySeVR/data/CVE_2009_2484_VULN_Win32AddConnection.c [u'psz_server', u'psz_remote', u'psz_share'] 6"
 p18
-I0
+I1
 sS"155 /home/SySeVR/data/CVE_2013_1696_PATCHED_nsDSURIContentListener__CheckOneFrameOptionsPolicy.c [u'allowFrom'] 3"
 p19
 I0
@@ -76,7 +76,7 @@ p25
 I0
 sS"45 /home/SySeVR/data/CVE_2011_1573_VULN_sctp_make_init_ack.c [u'extensions'] 16"
 p26
-I0
+I1
 sS"279 /home/SySeVR/data/CVE_2015_0833_PATCHED_NS_main.c [u'maintenanceServiceKey'] 370"
 p27
 I0
@@ -94,7 +94,7 @@ p31
 I0
 sS"188 /home/SySeVR/data/CVE_2013_4079_VULN_dissect_schedule_message.c [u'other_slots'] 8"
 p32
-I0
+I1
 sS"206 /home/SySeVR/data/CVE_2013_5642_VULN_process_sdp.c [u'red_fmtp'] 58"
 p33
 I0
@@ -130,22 +130,22 @@ p43
 I0
 sS"99 /home/SySeVR/data/CVE_2012_3969_VULN_nsSVGFEMorphologyElement__Filter.c [u'extrema'] 21"
 p44
-I0
+I1
 sS"15 /home/SySeVR/data/CVE_2007_4521_PATCHED_play_message.c [u'context'] 6"
 p45
 I0
 sS"103 /home/SySeVR/data/CVE_2012_4288_VULN_dissect_xtp_ecntl.c [u'ecntl'] 8"
 p46
-I0
+I1
 sS"294 /home/SySeVR/data/CVE_2015_2666_VULN_get_matching_model_microcode.c [u'mc_saved_tmp'] 13"
 p47
 I0
 sS"18 /home/SySeVR/data/CVE_2008_1390_VULN_generic_http_callback.c [u'tmp'] 55"
 p48
-I0
+I1
 sS"309 /home/SySeVR/data/CVE_2012_1960_VULN_compute_curve_gamma_table_type_parametric.c [u'gamma_table'] 1"
 p49
-I0
+I1
 sS"117 /home/SySeVR/data/CVE_2012_6058_PATCHED_dissect_icmpv6.c [u'tmp'] 159"
 p50
 I0
@@ -181,10 +181,10 @@ p60
 I0
 sS"154 /home/SySeVR/data/CVE_2013_1693_VULN_nsSVGFEMorphologyElement__Filter.c [u'yExt', u'xExt'] 21"
 p61
-I0
+I1
 sS"30 /home/SySeVR/data/CVE_2010_3848_VULN_econet_sendmsg.c [u'iov'] 16"
 p62
-I0
+I1
 sS"49 /home/SySeVR/data/CVE_2011_2536_VULN_register_verify.c [u'tmp'] 7"
 p63
 I0
@@ -202,7 +202,7 @@ p67
 I0
 sS"109 /home/SySeVR/data/CVE_2012_4530_VULN_load_script.c [u'interp'] 5"
 p68
-I0
+I1
 sS"240 /home/SySeVR/data/CVE_2014_8714_PATCHED_dissect_write_structured_field.c [u'dfdpck_coreflag'] 248"
 p69
 I0
@@ -253,13 +253,13 @@ p84
 I0
 sS"312 /home/SySeVR/data/CVE_2013_0311_VULN_translate_desc.c [u'iov'] 2"
 p85
-I0
+I1
 sS"131 /home/SySeVR/data/CVE_2013_0799_VULN_ProcessSoftwareUpdateCommand.c [u'updaterIdentity'] 101"
 p86
-I0
+I1
 sS"300 /home/SySeVR/data/CVE-2016-2328_VULN_bayer_to_yv12_wrapper.c [u'dstStride'] 2"
 p87
-I0
+I1
 sS"46 /home/SySeVR/data/CVE_2011_1833_PATCHED_ecryptfs_parse_options.c [u'args'] 15"
 p88
 I0
@@ -277,19 +277,19 @@ p92
 I0
 sS"302 /home/SySeVR/data/CVE-2016-2328_VULN_bayer_to_yv12_wrapper.c [u'srcStride'] 1"
 p93
-I0
+I1
 sS"22 /home/SySeVR/data/CVE_2009_2909_PATCHED_ax25_setsockopt.c [u'devname'] 7"
 p94
 I0
 sS"137 /home/SySeVR/data/CVE_2013_0850_VULN_decode_slice_header.c [u'id_list'] 736"
 p95
-I0
+I1
 sS"211 /home/SySeVR/data/CVE_2013_6380_VULN_aac_send_raw_srb.c [u'sg_user'] 14"
 p96
 I0
 sS"97 /home/SySeVR/data/CVE_2012_2790_VULN_read_var_block_data.c [u's'] 7"
 p97
-I0
+I1
 sS"222 /home/SySeVR/data/CVE_2014_2889_PATCHED_bpf_jit_compile.c [u'temp'] 3"
 p98
 I0
@@ -301,10 +301,10 @@ p100
 I0
 sS"33 /home/SySeVR/data/CVE_2010_4165_VULN_do_tcp_setsockopt.c [u'name'] 12"
 p101
-I0
+I1
 sS"96 /home/SySeVR/data/CVE_2012_2790_VULN_read_var_block_data.c [u'sx'] 8"
 p102
-I0
+I1
 sS"307 /home/SySeVR/data/CVE_2012_1960_PATCHED_compute_curve_gamma_table_type_parametric.c [u'gamma_table'] 1"
 p103
 I0
@@ -316,7 +316,7 @@ p105
 I0
 sS"291 /home/SySeVR/data/CVE_2015_1158_VULN_authenticate_job.c [u'username', u'scheme', u'resource', u'host'] 11"
 p106
-I0
+I1
 sS"13 /home/SySeVR/data/CVE_2007_4521_PATCHED_play_message.c [u'duration'] 8"
 p107
 I0
@@ -340,10 +340,10 @@ p113
 I0
 sS"301 /home/SySeVR/data/CVE-2016-2328_VULN_bayer_to_yv12_wrapper.c [u'dst'] 2"
 p114
-I0
+I1
 sS"189 /home/SySeVR/data/CVE_2013_4079_VULN_dissect_schedule_message.c [u'sched_end', u'new_slots', u'len', u'sched_begin'] 5"
 p115
-I0
+I1
 sS"39 /home/SySeVR/data/CVE_2011_0726_PATCHED_do_task_stat.c [u'tcomm'] 19"
 p116
 I0
@@ -355,7 +355,7 @@ p118
 I0
 sS"7 /home/SySeVR/data/CVE_2004_1151_VULN_sys32_ni_syscall.c [u'lastcomm'] 4"
 p119
-I0
+I1
 sS"182 /home/SySeVR/data/CVE_2013_1726_VULN_mar_read_product_info_block.c [u'buf'] 10"
 p120
 I0
@@ -367,7 +367,7 @@ p122
 I0
 sS"314 /home/SySeVR/data/CVE_2014_8643_VULN_XRE_InitChildProcess.c [u'aArgv'] 3"
 p123
-I0
+I1
 sS"80 /home/SySeVR/data/CVE_2012_2652_VULN_bdrv_open.c [u'backing_filename'] 80"
 p124
 I0
@@ -403,7 +403,7 @@ p134
 I0
 sS"170 /home/SySeVR/data/CVE_2013_1707_VULN_NS_main.c [u'buffer'] 578"
 p135
-I0
+I1
 sS"6 /home/SySeVR/data/CVE_2004_1151_PATCHED_sys32_ni_syscall.c [u'lastcomm'] 4"
 p136
 I0
@@ -415,7 +415,7 @@ p138
 I0
 sS"303 /home/SySeVR/data/CVE-2016-2328_VULN_bayer_to_yv12_wrapper.c [u'src'] 1"
 p139
-I0
+I1
 sS"89 /home/SySeVR/data/CVE_2012_2652_VULN_bdrv_open.c [u'backing_filename'] 14"
 p140
 I0
@@ -427,7 +427,7 @@ p142
 I0
 sS"47 /home/SySeVR/data/CVE_2011_2534_VULN_clusterip_proc_write.c [u'buffer'] 6"
 p143
-I0
+I1
 sS"130 /home/SySeVR/data/CVE_2013_0782_PATCHED_nsSaveAsCharset__HandleFallBack.c [u'fallbackStr'] 9"
 p144
 I0
@@ -454,7 +454,7 @@ p151
 I0
 sS"71 /home/SySeVR/data/CVE_2012_0477_VULN_nsISO2022KRToUnicode__Convert.c [u'ksx'] 130"
 p152
-I0
+I1
 sS"243 /home/SySeVR/data/CVE_2014_8714_PATCHED_dissect_write_structured_field.c [u'wts_line_data_fields'] 218"
 p153
 I0
@@ -463,7 +463,7 @@ p154
 I0
 sS"133 /home/SySeVR/data/CVE_2013_0844_VULN_adpcm_decode_frame.c [u'offsets'] 450"
 p155
-I0
+I1
 sS"40 /home/SySeVR/data/CVE_2011_0726_VULN_do_task_stat.c [u'tcomm'] 19"
 p156
 I0
@@ -481,7 +481,7 @@ p160
 I0
 sS"132 /home/SySeVR/data/CVE_2013_0799_VULN_ProcessSoftwareUpdateCommand.c [u'noWriteLock'] 45"
 p161
-I0
+I1
 sS"27 /home/SySeVR/data/CVE_2010_2495_VULN_pppol2tp_sendmsg.c [u'ppph'] 4"
 p162
 I0
@@ -502,7 +502,7 @@ p167
 I0
 sS"1 /home/SySeVR/data/CVE-2015-1872_VULN_ff_mjpeg_decode_sof.c [u'v_count'] 6"
 p168
-I0
+I1
 sS"239 /home/SySeVR/data/CVE_2014_8714_PATCHED_dissect_write_structured_field.c [u'dfdpck_toprowflag1'] 260"
 p169
 I0
@@ -514,7 +514,7 @@ p171
 I0
 sS"94 /home/SySeVR/data/CVE_2012_2790_VULN_read_var_block_data.c [u'k'] 164"
 p172
-I0
+I1
 sS"274 /home/SySeVR/data/CVE_2015_0833_PATCHED_NS_main.c [u'oldPrecomplete'] 815"
 p173
 I0
@@ -529,7 +529,7 @@ p176
 I0
 sS"2 /home/SySeVR/data/CVE-2015-1872_VULN_ff_mjpeg_decode_sof.c [u'h_count'] 5"
 p177
-I0
+I1
 sS"86 /home/SySeVR/data/CVE_2012_2652_VULN_bdrv_open.c [u'backing_filename'] 14"
 p178
 I0
@@ -547,7 +547,7 @@ p182
 I0
 sS"221 /home/SySeVR/data/CVE_2014_1508_VULN_nsDisplayNotation__Paint.c [u'p'] 60"
 p183
-I0
+I1
 sS"304 /home/SySeVR/data/CVE_2011_3936_PATCHED_dv_extract_audio.c [u'ppcm'] 1"
 p184
 I0
@@ -559,7 +559,7 @@ p186
 I0
 sS"169 /home/SySeVR/data/CVE_2013_1707_VULN_NS_main.c [u'installDir'] 591"
 p187
-I0
+I1
 sS"145 /home/SySeVR/data/CVE_2013_0868_PATCHED_generate_joint_tables.c [u'symbols'] 3"
 p188
 I0
@@ -580,13 +580,13 @@ p193
 I0
 sS"41 /home/SySeVR/data/CVE_2011_1147_VULN_udptl_rx_packet.c [u'lengths'] 22"
 p194
-I0
+I1
 sS"95 /home/SySeVR/data/CVE_2012_2790_VULN_read_var_block_data.c [u'delta'] 163"
 p195
-I0
+I1
 sS"42 /home/SySeVR/data/CVE_2011_1147_VULN_udptl_rx_packet.c [u'bufs'] 21"
 p196
-I0
+I1
 sS"70 /home/SySeVR/data/CVE_2012_0477_PATCHED_nsISO2022CNToUnicode__Convert.c [u'gb'] 116"
 p197
 I0
@@ -604,10 +604,10 @@ p201
 I0
 sS"168 /home/SySeVR/data/CVE_2013_1707_VULN_NS_main.c [u'installDir'] 762"
 p202
-I0
+I1
 sS"38 /home/SySeVR/data/CVE_2011_0055_VULN_JO.c [u'vec'] 9"
 p203
-I0
+I1
 sS"209 /home/SySeVR/data/CVE_2013_6380_PATCHED_aac_send_raw_srb.c [u'sg_user'] 14"
 p204
 I0
@@ -622,7 +622,7 @@ p207
 I0
 sS"305 /home/SySeVR/data/CVE_2011_3936_VULN_dv_extract_audio.c [u'ppcm'] 1"
 p208
-I0
+I1
 sS"214 /home/SySeVR/data/CVE_2013_7009_VULN_rpza_decode_stream.c [u'color4'] 11"
 p209
 I0
@@ -637,10 +637,10 @@ p212
 I0
 sS"187 /home/SySeVR/data/CVE_2013_3674_VULN_cdg_decode_frame.c [u'cdg_data'] 8"
 p213
-I0
+I1
 sS"93 /home/SySeVR/data/CVE_2012_2652_VULN_bdrv_open.c [u'tmp_filename'] 6"
 p214
-I0
+I1
 sS"151 /home/SySeVR/data/CVE_2013_1672_VULN_ProcessSoftwareUpdateCommand.c [u'updaterIdentity'] 101"
 p215
 I0
@@ -667,7 +667,7 @@ p222
 I0
 sS"56 /home/SySeVR/data/CVE_2011_3945_VULN_decode_frame.c [u'offsets'] 6"
 p223
-I0
+I1
 sS"108 /home/SySeVR/data/CVE_2012_4530_PATCHED_load_script.c [u'interp'] 5"
 p224
 I0
@@ -676,7 +676,7 @@ p225
 I0
 sS"134 /home/SySeVR/data/CVE_2013_0844_VULN_adpcm_decode_frame.c [u'byte'] 417"
 p226
-I0
+I1
 sS"87 /home/SySeVR/data/CVE_2012_2652_VULN_bdrv_open.c [u'backing_filename'] 14"
 p227
 I0
@@ -709,10 +709,10 @@ p236
 I0
 sS"113 /home/SySeVR/data/CVE_2012_5237_VULN_dissect_hsrp.c [u'auth_buf'] 220"
 p237
-I0
+I1
 sS"73 /home/SySeVR/data/CVE_2012_1183_VULN_milliwatt_generate.c [u'buf'] 3"
 p238
-I0
+I1
 sS"119 /home/SySeVR/data/CVE_2012_6058_PATCHED_dissect_icmpv6.c [u'phdr'] 9"
 p239
 I0
@@ -724,7 +724,7 @@ p241
 I0
 sS"308 /home/SySeVR/data/CVE_2012_1960_VULN_compute_curve_gamma_table_type_parametric.c [u'parameter'] 1"
 p242
-I0
+I1
 sS"91 /home/SySeVR/data/CVE_2012_2652_VULN_bdrv_open.c [u'backing_filename'] 14"
 p243
 I0
@@ -733,10 +733,10 @@ p244
 I0
 sS"8 /home/SySeVR/data/CVE_2005_3356_VULN_do_open.c [u'O_ACCMODE', u'oflag2acc'] 3"
 p245
-I0
+I1
 sS"191 /home/SySeVR/data/CVE_2013_4512_VULN_exitcode_proc_write.c [u'end', u'buf'] 4"
 p246
-I0
+I1
 sS"126 /home/SySeVR/data/CVE_2013_0777_PATCHED_nsCSSRendering__PaintBoxShadowOuter.c [u'borderSizes'] 159"
 p247
 I0
@@ -781,7 +781,7 @@ p260
 I0
 sS"313 /home/SySeVR/data/CVE_2013_0799_VULN_GetInstallationDir.c [u'aResultDir'] 2"
 p261
-I0
+I1
 sS"192 /home/SySeVR/data/CVE_2013_4534_VULN_openpic_realize.c [u'list_fsl'] 29"
 p262
 I0
@@ -790,10 +790,10 @@ p263
 I0
 sS"138 /home/SySeVR/data/CVE_2013_0850_VULN_decode_slice_header.c [u'max'] 557"
 p264
-I0
+I1
 sS"153 /home/SySeVR/data/CVE_2013_1693_VULN_nsSVGFEMorphologyElement__Filter.c [u'extrema'] 22"
 p265
-I0
+I1
 sS"34 /home/SySeVR/data/CVE_2011_0021_PATCHED_DecodeScroll.c [u'copy'] 3"
 p266
 I0
@@ -811,7 +811,7 @@ p270
 I0
 sS"226 /home/SySeVR/data/CVE_2014_5163_VULN_decode_apn.c [u'str'] 4"
 p271
-I0
+I1
 sS"116 /home/SySeVR/data/CVE_2012_5238_PATCHED_proto_register_lcp.c [u'ett'] 247"
 p272
 I0
@@ -856,7 +856,7 @@ p285
 I0
 sS"292 /home/SySeVR/data/CVE_2015_1158_VULN_release_job.c [u'username', u'scheme', u'resource', u'host'] 9"
 p286
-I0
+I1
 sS"106 /home/SySeVR/data/CVE_2012_4293_PATCHED_dissect_ecat_eoe.c [u'szText'] 7"
 p287
 I0
@@ -868,7 +868,7 @@ p289
 I0
 sS"215 /home/SySeVR/data/CVE_2013_7011_VULN_read_header.c [u'state'] 3"
 p290
-I0
+I1
 sS"78 /home/SySeVR/data/CVE_2012_2652_VULN_bdrv_open.c [u'backing_filename'] 80"
 p291
 I0
@@ -898,19 +898,19 @@ p299
 I0
 sS"66 /home/SySeVR/data/CVE_2012_0067_VULN_iptrace_read_1_0.c [u'header'] 6"
 p300
-I0
+I1
 sS"173 /home/SySeVR/data/CVE_2013_1707_VULN_NS_main.c [u'maintenanceServiceKey'] 321"
 p301
 I0
 sS"203 /home/SySeVR/data/CVE_2013_5642_VULN_process_sdp.c [u's2', u's1'] 699"
 p302
-I0
+I1
 sS"51 /home/SySeVR/data/CVE_2011_3362_PATCHED_decode_residual_block.c [u'run_buf'] 7"
 p303
 I0
 sS"128 /home/SySeVR/data/CVE_2013_0777_VULN_nsCSSRendering__PaintBoxShadowOuter.c [u'borderSizes'] 156"
 p304
-I0
+I1
 sS"105 /home/SySeVR/data/CVE_2012_4289_VULN_proto_register_afp.c [u'ett'] 1504"
 p305
 I0
